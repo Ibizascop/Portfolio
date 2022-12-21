@@ -37,7 +37,7 @@ def create_year_map(year) :
     #Load cities layer from local postgis database
     uri = QgsDataSourceUri()
     #Cacher les identifiants
-    uri.setConnection("localhost", "5432", "postgis","postgres", "solhona1")
+    uri.setConnection("localhost", "5432", "postgis",username, password)
     uri.setDataSource("public", "communes_france", "geom")
     cities_layer = QgsVectorLayer(uri.uri(), f"{year}", "postgres")
     QgsProject.instance().addMapLayer(cities_layer)
