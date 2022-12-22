@@ -1,0 +1,1236 @@
+EPCI	CAPACITE 2022	OUVERTURES 2022	FERMETURES 2021	EVOL NB	EVOL 2022-2021 %
+CC de la Plaine de l'Ain	238	40	70	-30	-0.111940298507463
+CC Bugey Sud	290	30	12	18	0.0661764705882353
+CC Usses et Rhône	39	6	0	6	0.181818181818182
+CA Haut - Bugey Agglomération	384	11	24	-13	-0.0327455919395466
+CC Bresse et Saône	128	44	36	8	0.0666666666666667
+CA du Bassin de Bourg-en-Bresse	431	45	27	18	0.0435835351089588
+CC du Pays Bellegardien (CCPB)	79	20	14	6	0.0821917808219179
+CC de Miribel et du Plateau	28	0	3	-3	-0.0967741935483871
+CC de la Dombes	123	10	6	4	0.0336134453781514
+CC Rives de l'Ain - Pays du Cerdon	162	0	6	-6	-0.0357142857142857
+CC Val de Saône Centre	116	15	35	-20	-0.147058823529412
+CC de la Veyle	29	5	18	-13	-0.30952380952381
+CA du Pays de Gex	76	0	2	-2	-0.0256410256410257
+CC Dombes Saône Vallée	72	4	0	4	0.0588235294117647
+CC de la Côtière à Montluel	10	10	0	10	-
+CC du Val de l'Oise	53	0	0	0	0
+CA Chauny-Tergnier-La Fère	42	0	7	-7	-0.142857142857143
+CA du Pays de Laon	24	0	4	-4	-0.142857142857143
+CC de la Thiérache du Centre	69	18	0	18	0.352941176470588
+CC du Pays de la Serre	44	20	0	20	0.833333333333333
+CA de la Région de Château-Thierry	24	0	6	-6	-0.2
+CC Picardie des Châteaux	27	0	0	0	0
+CC du Pays du Vermandois	10	0	13	-13	-0.565217391304348
+CC de la Champagne Picarde	43	15	10	5	0.131578947368421
+CC du Chemin des Dames	33	9	0	9	0.375
+CC des Trois Rivières	65	0	12	-12	-0.155844155844156
+CC des Portes de la Thiérache	15	0	11	-11	-0.423076923076923
+CC du Val de l'Aisne	58	0	0	0	0
+CA du Saint-Quentinois	23	0	0	0	0
+CC Thiérache Sambre et Oise	22	8	0	8	0.571428571428571
+CC Retz-en-Valois	30	0	6	-6	-0.166666666666667
+CA GrandSoissons Agglomération	4	4	0	4	-
+CC du Canton de Charly-sur-Marne	4	4	0	4	-
+CA Vichy Communauté	526	36	0	36	0.073469387755102
+CC du Bocage Bourbonnais	155	16	33	-17	-0.0988372093023255
+CC du Val de Cher	103	4	12	-8	-0.0720720720720721
+CA Moulins Communauté	332	42	37	5	0.0152905198776758
+CC Entr'Allier Besbre et Loire	287	12	40	-28	-0.0888888888888889
+CC du Pays de Lapalisse	77	0	11	-11	-0.125
+CC Commentry Montmarault Néris Communauté	255	18	20	-2	-0.00778210116731515
+CC Saint-Pourçain Sioule Limagne	394	12	39	-27	-0.0641330166270784
+CC du Pays de Tronçais	166	5	43	-38	-0.186274509803922
+CC du Pays d'Huriel	100	0	6	-6	-0.0566037735849056
+CA Montluçon Communauté	113	6	9	-3	-0.0258620689655172
+CC Le Grand Charolais	290	42	14	28	0.106870229007634
+CA Provence-Alpes-Agglomération	676	28	78	-50	-0.068870523415978
+CA Durance-Lubéron-Verdon Agglomération	453	8	28	-20	-0.0422832980972516
+CC Alpes-Provence-Verdon - Sources de Lumière	459	32	83	-51	-0.1
+CC Haute-Provence-Pays de Banon	192	14	0	14	0.0786516853932584
+CC Vallée de l'Ubaye - Serre-Ponçon	404	0	151	-151	-0.272072072072072
+CC du Sisteronais-Buëch	224	12	111	-99	-0.306501547987616
+CC Pays d'Apt-Luberon	552	16	61	-45	-0.0753768844221105
+CC Jabron-Lure-Vançon-Durance	87	15	48	-33	-0.275
+CC Pays Forcalquier et Montagne de Lure	192	2	0	2	0.0105263157894737
+CC Serre-Ponçon Val d'Avance	110	9	3	6	0.0576923076923077
+CC du Guillestrois et du Queyras	822	19	33	-14	-0.0167464114832536
+CC Champsaur-Valgaudemar	873	81	62	19	0.0222482435597189
+CC du Pays des Ecrins	361	2	12	-10	-0.0269541778975741
+CC Buëch-Dévoluy	328	14	89	-75	-0.186104218362283
+CC Serre-Ponçon	546	44	43	1	0.00183486238532105
+CA Gap-Tallard-Durance	144	8	22	-14	-0.0886075949367089
+CC du Briançonnais	735	51	51	0	0
+CA du Pays de Grasse	136	6	35	-29	-0.175757575757576
+CA de Sophia Antipolis	215	7	53	-46	-0.176245210727969
+CC Alpes d'Azur	159	8	24	-16	-0.0914285714285714
+Métropole Nice Côte d'Azur	652	8	179	-171	-0.207776427703524
+CA de la Riviera Française	65	8	21	-13	-0.166666666666667
+CC du Pays des Paillons	90	4	15	-11	-0.108910891089109
+CA Cannes Pays de Lérins	74	26	5	21	0.39622641509434
+CC Val Eyrieux	186	0	29	-29	-0.134883720930233
+CC du Bassin d'Aubenas	478	36	50	-14	-0.0284552845528455
+CA Privas Centre Ardèche	411	31	35	-4	-0.00963855421686743
+CC Ardèche Rhône Coiron	59	0	2	-2	-0.0327868852459017
+CA Annonay Rhône Agglo	97	5	2	3	0.0319148936170213
+CA Arche Agglo	314	0	142	-142	-0.31140350877193
+CC Pays des Vans en Cévennes	684	21	63	-42	-0.0578512396694215
+CC de la Montagne d'Ardèche	407	6	6	0	0
+CC des Gorges de l'Ardèche	1172	168	181	-13	-0.0109704641350211
+CC Ardèche des Sources et Volcans	294	8	11	-3	-0.0101010101010101
+CC du Rhône aux Gorges de l'Ardèche	95	17	4	13	0.158536585365854
+CC Rhône Crussol	108	6	4	2	0.0188679245283019
+CC Porte de Drômardèche	214	26	27	-1	-0.00465116279069766
+CC du Pays Beaume-Drobie	367	30	36	-6	-0.0160857908847185
+CC Val de Ligne	218	20	14	6	0.0283018867924529
+CC du Pays de Lamastre	87	4	6	-2	-0.0224719101123596
+CC Berg et Coiron	77	22	4	18	0.305084745762712
+CC du Val d'Ay	48	0	0	0	0
+CC de Cèze Cévennes	160	0	32	-32	-0.166666666666667
+CC Ardennes Thiérache	150	0	12	-12	-0.0740740740740741
+CA Ardenne Métropole	148	0	10	-10	-0.0632911392405063
+CC des Portes du Luxembourg	139	0	0	0	0
+CC des Crêtes Préardennaises	180	17	10	7	0.0404624277456647
+CC Vallées et Plateau d'Ardenne	85	9	5	4	0.0493827160493827
+CC du Pays Rethélois	50	0	0	0	0
+CC de l'Argonne Ardennaise	101	0	0	0	0
+CC Ardenne. Rives de Meuse	166	0	22	-22	-0.117021276595745
+CC de la Haute Ariège	403	38	26	12	0.0306905370843991
+CC Couserans-Pyrénées	373	14	21	-7	-0.0184210526315789
+CC du Pays de Tarascon	159	13	38	-25	-0.135869565217391
+CA Pays Foix-Varilhes	189	24	14	10	0.0558659217877095
+CC du Pays d'Olmes	72	13	12	1	0.0140845070422535
+CC des Portes d'Ariège Pyrénées	116	14	6	8	0.0740740740740742
+CC Arize Lèze	67	6	35	-29	-0.302083333333333
+CC du Pays de Mirepoix	92	10	0	10	0.121951219512195
+CC du Pays d'Othe	51	0	17	-17	-0.25
+CC d'Arcis. Mailly. Ramerupt	70	0	6	-6	-0.0789473684210527
+CC des Lacs de Champagne	69	0	10	-10	-0.126582278481013
+CC de la Région de Bar-sur-Aube	134	10	15	-5	-0.0359712230215827
+CA Troyes Champagne Métropole	200	24	11	13	0.0695187165775402
+CC de l'Orvin et de l'Ardusson	32	6	0	6	0.230769230769231
+CC du Barséquanais en Champagne	273	12	27	-15	-0.0520833333333334
+CC du Chaourçois et du Val d'Armance	122	6	4	2	0.0166666666666666
+CC de Vendeuvre-Soulaines	87	0	0	0	0
+CC Seine et Aube	272	5	4	1	0.00369003690036895
+CC Forêts. Lacs. Terres en Champagne	145	22	0	22	0.178861788617886
+CC du Nogentais	89	9	0	9	0.1125
+CC des Portes de Romilly-sur-Seine	14	5	4	1	0.0769230769230769
+CC Région Lézignanaise. Corbières et Minervois	554	56	48	8	0.0146520146520146
+CA Carcassonne Agglo	868	156	100	56	0.0689655172413792
+CC du Limouxin	294	70	75	-5	-0.0167224080267558
+CA Le Grand Narbonne	683	87	129	-42	-0.0579310344827586
+CC Pyrénées Audoises	233	51	13	38	0.194871794871795
+CC Piège Lauragais Malepère	185	27	0	27	0.170886075949367
+CC Lauragais Revel Sorezois	139	0	72	-72	-0.341232227488152
+CC Castelnaudary Lauragais Audois	191	28	43	-15	-0.0728155339805825
+CC Corbières Salanque Méditerranée	229	14	16	-2	-0.0086580086580087
+CC de la Montagne Noire	104	18	31	-13	-0.111111111111111
+CC de Millau Grands Causses	313	6	16	-10	-0.0309597523219814
+CC Decazeville Communauté	58	8	10	-2	-0.0333333333333333
+CC Ouest Aveyron Communauté	179	29	14	15	0.0914634146341464
+CC du Pays Rignacois	76	0	15	-15	-0.164835164835165
+CC de Lévézou Pareloup	120	15	119	-104	-0.464285714285714
+CC Aveyron Bas Ségala Viaur	66	0	9	-9	-0.12
+CC des Causses à l'Aubrac	203	19	22	-3	-0.0145631067961165
+CC Pays Ségali Communauté	136	20	7	13	0.105691056910569
+CC Comtal Lot et Truyère	350	32	0	32	0.10062893081761
+CC du Plateau de Montbazens	53	0	6	-6	-0.101694915254237
+CC Aubrac. Carladez et Viadène	261	30	0	30	0.12987012987013
+CC de la Muse et des Raspes du Tarn	110	4	163	-159	-0.591078066914498
+CC Monts. Rance et Rougier	49	0	0	0	0
+CC Conques-Marcillac	208	8	12	-4	-0.0188679245283019
+CC du Réquistanais	64	10	0	10	0.185185185185185
+CC Larzac et Vallées	63	0	117	-117	-0.65
+CA Rodez Agglomération	78	0	0	0	0
+CC du Pays de Salars	23	0	0	0	0
+CC Saint Affricain. Roquefort. Sept Vallons	30	15	0	15	1
+CC Grand-Figeac	748	57	135	-78	-0.0944309927360775
+Métropole d'Aix-Marseille-Provence	878	79	108	-29	-0.0319735391400221
+CA d'Arles-Crau-Camargue-Montagnette	262	32	45	-13	-0.0472727272727272
+CC Vallée des Baux-Alpilles (CC VBA)	326	22	42	-20	-0.0578034682080925
+CA Terre de Provence	313	62	29	33	0.117857142857143
+CC du Pays de Honfleur-Beuzeville	368	35	51	-16	-0.0416666666666666
+CC Val ès Dunes	82	4	9	-5	-0.0574712643678161
+CC Vallées de l'Orne et de l'Odon	127	0	29	-29	-0.185897435897436
+CC Pré-Bocage Intercom	270	19	36	-17	-0.0592334494773519
+CC Normandie-Cabourg-Pays d'Auge	264	8	45	-37	-0.122923588039867
+CC Cœur de Nacre	230	30	24	6	0.0267857142857142
+CC Terre d'Auge	311	30	35	-5	-0.0158227848101266
+CC de Bayeux Intercom	366	54	49	5	0.0138504155124655
+CC Seulles Terre et Mer	356	33	45	-12	-0.0326086956521739
+CC Isigny-Omaha Intercom	623	17	97	-80	-0.113798008534851
+CC Cœur Côte Fleurie	99	10	0	10	0.112359550561798
+CU Caen la Mer	251	29	44	-15	-0.056390977443609
+CC Intercom de la Vire au Noireau	272	8	63	-55	-0.168195718654434
+CA Lisieux Normandie	520	48	88	-40	-0.0714285714285714
+CC Cingal-Suisse Normande	350	9	37	-28	-0.0740740740740741
+CC du Pays de Falaise	247	6	3	3	0.0122950819672132
+CC du Pays de Salers	617	17	72	-55	-0.0818452380952381
+CC Saint-Flour Communauté	593	18	134	-116	-0.16361071932299
+CC Sumène - Artense	115	14	38	-24	-0.172661870503597
+CC du Pays de Mauriac	117	0	12	-12	-0.0930232558139535
+CC de la Châtaigneraie Cantalienne	505	18	104	-86	-0.145516074450085
+CA du Bassin d'Aurillac	193	23	47	-24	-0.110599078341014
+CC Cère et Goul en Carladès	349	13	23	-10	-0.0278551532033426
+CC Hautes Terres Communauté	379	5	53	-48	-0.112412177985948
+CC du Pays Gentiane	235	0	38	-38	-0.139194139194139
+CC du Massif du Sancy	910	35	96	-61	-0.062821833161689
+CC de Charente Limousine	163	0	28	-28	-0.146596858638743
+CC La Rochefoucauld porte du Périgord	202	16	18	-2	-0.00980392156862742
+CC Cœur de Charente	131	8	8	0	0
+CC des 4B Sud Charente	198	16	33	-17	-0.0790697674418605
+CA du Grand Angoulême	199	0	31	-31	-0.134782608695652
+CA du Grand Cognac	397	37	20	17	0.0447368421052632
+CC Lavalette Tude Dronne	167	25	47	-22	-0.116402116402116
+CC du Rouillacais	85	13	0	13	0.180555555555556
+CC Val de Charente	59	4	18	-14	-0.191780821917808
+CC Aunis Sud	127	0	56	-56	-0.306010928961749
+CC de la Haute Saintonge	395	32	79	-47	-0.106334841628959
+CC Aunis Atlantique	105	25	0	25	0.3125
+CC Vals de Saintonge Communauté	190	6	83	-77	-0.288389513108614
+CA Royan Atlantique	411	23	57	-34	-0.0764044943820225
+CC de l'Île de Ré	187	8	31	-23	-0.10952380952381
+CA Rochefort Océan	131	16	18	-2	-0.0150375939849624
+CC du Bassin de Marennes	161	4	30	-26	-0.13903743315508
+CA de La Rochelle	360	56	26	30	0.0909090909090908
+CA de Saintes	105	18	6	12	0.129032258064516
+CC de l'Île d'Oléron	319	74	48	26	0.0887372013651877
+CC Cœur de Saintonge	153	21	4	17	0.125
+CC de Gémozac et de la Saintonge Viticole	145	6	4	2	0.013986013986014
+CC Terres du Haut Berry	300	13	14	-1	-0.00332225913621265
+CC Berry Grand Sud	307	21	5	16	0.0549828178694158
+CC Portes du Berry entre Loire et Val d'Aubois	57	0	10	-10	-0.149253731343284
+CC Sauldre et Sologne	198	6	27	-21	-0.0958904109589042
+CC Pays Fort Sancerrois Val de Loire	394	12	38	-26	-0.0619047619047619
+CC Les Trois Provinces	101	0	4	-4	-0.0380952380952381
+CC Le Dunois	15	0	0	0	0
+CC La Septaine	136	0	0	0	0
+CC Berry-Loire-Vauvise	53	0	0	0	0
+CA Bourges Plus	123	0	29	-29	-0.190789473684211
+CC Cœur de France	99	0	12	-12	-0.108108108108108
+CC Pays de Nérondes	12	0	0	0	0
+CC Cœur de Berry	152	0	0	0	0
+CC Arnon Boischaut Cher	113	3	67	-64	-0.361581920903955
+CC Les Bertranges	47	0	0	0	0
+CC du Pays d'Issoudun	41	6	11	-5	-0.108695652173913
+CC Vierzon-Sologne-Berry	258	4	19	-15	-0.054945054945055
+CC FerCher	75	0	0	0	0
+CC Vézère-Monédières-Millesources	87	2	33	-31	-0.26271186440678
+CC Haute-Corrèze Communauté	391	24	19	5	0.0129533678756477
+CC Midi Corrézien	496	42	30	12	0.024793388429752
+CC Xaintrie Val'Dordogne	340	12	7	5	0.0149253731343284
+CA du Bassin de Brive	523	18	48	-30	-0.054249547920434
+CA Tulle Agglo	417	22	24	-2	-0.00477326968973746
+CC du Pays de Lubersac-Pompadour	153	0	5	-5	-0.0316455696202531
+CC de Ventadour - Egletons - Monédières	227	26	8	18	0.0861244019138756
+CC du Pays d'Uzerche	171	5	0	5	0.0301204819277108
+CC du Pays Châtillonnais	364	16	24	-8	-0.021505376344086
+CC de la Plaine Dijonnaise	54	0	4	-4	-0.0689655172413793
+CC du Pays d'Alésia et de la Seine	138	14	0	14	0.112903225806452
+CC Mirebellois et Fontenois	97	4	0	4	0.043010752688172
+CC de Gevrey-Chambertin et de Nuits-Saint-Georges	205	0	12	-12	-0.0552995391705069
+CC de Pouilly-en-Auxois/Bligny-sur-Ouche	257	64	31	33	0.147321428571429
+CC des Terres d'Auxois	166	0	0	0	0
+CC Ouche et Montagne	45	12	6	6	0.153846153846154
+CC Auxonne Pontailler Val de Saône	73	0	0	0	0
+CC Rives de Saône	34	6	20	-14	-0.291666666666667
+CC du Pays Arnay Liernais	78	0	15	-15	-0.161290322580645
+CA Beaune. Côte et Sud - Communauté Beaune-Chagny-Nolay	695	4	76	-72	-0.0938722294654498
+CC Norge et Tille	20	0	3	-3	-0.130434782608696
+CC Tille et Venelle	88	0	4	-4	-0.0434782608695652
+Dijon Métropole	111	18	25	-7	-0.059322033898305
+CC du Montbardois	55	0	0	0	0
+CC des Vallées de la Tille et de l'Ignon	57	0	0	0	0
+CC de Saulieu	56	0	3	-3	-0.0508474576271186
+CC Forêts. Seine et Suzon	149	0	6	-6	-0.0387096774193548
+CC Loudéac Communauté - Bretagne Centre	196	4	28	-24	-0.109090909090909
+CA Lamballe Terre et Mer	1129	59	203	-144	-0.11311861743912
+CA Dinan Agglomération	915	61	129	-68	-0.069175991861648
+CA Guingamp-Paimpol Agglomération de l'Armor à l'Argoat	634	78	150	-72	-0.101983002832861
+CA Lannion-Trégor Communauté	2390	199	410	-211	-0.0811226451364859
+CC Leff Armor Communauté	332	16	61	-45	-0.119363395225464
+Sans objet	28	0	10	-10	-0.263157894736842
+CC du Kreiz-Breizh (CCKB)	72	4	20	-16	-0.181818181818182
+CA Saint-Brieuc Armor Agglomération	601	62	62	0	0
+CC Côte d'Émeraude	214	12	66	-54	-0.201492537313433
+CC Creuse Sud Ouest	415	18	58	-40	-0.0879120879120879
+CA du Grand Guéret	180	39	242	-203	-0.530026109660574
+CC de Bénévent Grand Bourg	101	12	2	10	0.10989010989011
+CC du Pays Sostranien	54	11	22	-11	-0.169230769230769
+CC Marche et Combraille en Aquitaine	194	11	22	-11	-0.0536585365853659
+CC Creuse Grand Sud	203	0	16	-16	-0.0730593607305936
+CC du Pays Dunois	165	4	4	0	0
+CC Creuse Confluence	238	22	6	16	0.072072072072072
+CC Portes de la Creuse en Marche	77	22	12	10	0.149253731343284
+CA Le Grand Périgueux	276	43	24	19	0.0739299610894941
+CC Terrassonnais Haut Périgord Noir	197	37	0	37	0.23125
+CC des Bastides Dordogne-Périgord	393	33	45	-12	-0.0296296296296297
+CC Vallée de la Dordogne et Forêt Bessède	163	29	0	29	0.216417910447761
+CC du Périgord Ribéracois	69	0	0	0	0
+CC Isle-Loue-Auvézère en Périgord	244	0	11	-11	-0.0431372549019607
+CC du Pays de Fénelon	463	67	34	33	0.0767441860465117
+CC de la Vallée de l'Homme	293	46	27	19	0.0693430656934306
+CC de Portes Sud Périgord	71	53	0	53	2.94444444444444
+CA Bergeracoise	176	37	16	21	0.135483870967742
+CC de Domme-Villefranche du Périgord	373	76	6	70	0.231023102310231
+CC Sarlat-Périgord Noir	447	22	38	-16	-0.0345572354211663
+CC Isle et Crempse en Périgord	63	0	0	0	0
+CC Dronne et Belle	85	18	8	10	0.133333333333333
+CC Périgord-Limousin	10	6	4	2	0.25
+CC Isle Double Landais	18	0	0	0	0
+CC Isle Vern Salembre en Périgord	48	0	0	0	0
+CC du Périgord Nontronnais	11	0	6	-6	-0.352941176470588
+CC de Montaigne Montravel et Gurson	17	0	4	-4	-0.19047619047619
+CC du Pays de Saint-Aulaye	19	10	6	4	0.266666666666667
+CC Loue-Lison	345	6	4	2	0.00583090379008744
+CC de Montbenoît	71	18	27	-9	-0.1125
+CA Pays de Montbéliard Agglomération	44	8	34	-26	-0.371428571428571
+CU Grand Besançon Métropole	125	8	7	1	0.00806451612903225
+CC des Portes du Haut-Doubs	153	0	14	-14	-0.0838323353293413
+CC du Plateau de Russey	59	0	0	0	0
+CC du Doubs Baumois	53	0	36	-36	-0.404494382022472
+CC du Pays de Sancey-Belleherbe	114	8	0	8	0.0754716981132075
+CC du Plateau de Frasne et du Val de Drugeon (CFD)	11	0	0	0	0
+CC des Deux Vallées Vertes	58	4	12	-8	-0.121212121212121
+CC du Pays de Maîche	129	0	8	-8	-0.0583941605839416
+CC des Lacs et Montagnes du Haut-Doubs	310	31	66	-35	-0.101449275362319
+CC Altitude 800	14	0	2	-2	-0.125
+CC du Val Marnaysien	48	10	2	8	0.2
+CC du Grand Pontarlier	12	0	12	-12	-0.5
+CC du Val de Morteau	210	9	19	-10	-0.0454545454545454
+CA Montélimar Agglomération	128	36	28	8	0.0666666666666667
+CC du Val de Drôme en Biovallée	257	46	101	-55	-0.176282051282051
+CC du Crestois et de Pays de Saillans Cœur de Drôme	84	6	26	-20	-0.192307692307692
+CC du Diois	210	10	29	-19	-0.0829694323144105
+CC des Baronnies en Drôme Provençale	660	67	136	-69	-0.0946502057613169
+CA Valence Romans Agglo	342	24	21	3	0.00884955752212391
+CC Drôme Sud Provence	147	32	41	-9	-0.0576923076923077
+CC Dieulefit-Bourdeaux	128	56	21	35	0.376344086021505
+CC du Royans-Vercors	274	6	134	-128	-0.318407960199005
+CC Enclave des Papes-Pays de Grignan	215	31	41	-10	-0.0444444444444444
+CC Vaison Ventoux	497	22	57	-35	-0.0657894736842105
+CA Seine-Eure	163	2	34	-32	-0.164102564102564
+CC du Vexin Normand	77	0	12	-12	-0.134831460674157
+CC Roumois Seine	253	19	18	1	0.00396825396825395
+CA Seine Normandie Agglomération	351	42	61	-19	-0.0513513513513514
+CC Lieuvin Pays d'Auge	214	21	82	-61	-0.221818181818182
+CC de Pont-Audemer / Val de Risle	135	4	73	-69	-0.338235294117647
+CC Interco Normandie Sud Eure	176	31	78	-47	-0.210762331838565
+CC Lyons Andelle	106	12	31	-19	-0.152
+CC Intercom Bernay Terres de Normandie	304	13	118	-105	-0.256723716381418
+CA Evreux Portes de Normandie	232	0	36	-36	-0.134328358208955
+CC du Pays de Conches	90	4	11	-7	-0.0721649484536082
+CC du Pays du Neubourg	107	4	18	-14	-0.115702479338843
+CA Agglo du Pays de Dreux	130	9	18	-9	-0.064748201438849
+CC Cœur de Beauce	131	10	5	5	0.0396825396825398
+CC du Grand Châteaudun	232	9	56	-47	-0.168458781362007
+CC du Perche	66	16	0	16	0.32
+CA Chartres Métropole	191	20	0	20	0.116959064327485
+CC des Portes Euréliennes d'Île-de-France	34	11	34	-23	-0.403508771929825
+CC du Bonnevalais	51	0	0	0	0
+CC du Pays Houdanais (C.C.P.H.)	131	23	0	23	0.212962962962963
+CC Terres de Perche	79	0	0	0	0
+CC Entre Beauce et Perche	64	0	12	-12	-0.157894736842105
+CC des Forêts du Perche	33	0	12	-12	-0.266666666666667
+CC Presqu'île de Crozon-Aulne maritime	457	40	82	-42	-0.0841683366733467
+CA Quimperlé Communauté	308	47	44	3	0.00983606557377059
+CC Cap Sizun - Pointe du Raz	357	30	178	-148	-0.293069306930693
+CC du Pays Fouesnantais	421	40	18	22	0.0551378446115289
+CC Monts d'Arrée Communauté	105	4	24	-20	-0.16
+CC du Pays de Landivisiau	152	2	20	-18	-0.105882352941176
+CA Morlaix Communauté	491	38	100	-62	-0.112115732368897
+CC du Pays des Abers	289	52	20	32	0.124513618677043
+CC du Pays d'Iroise	435	92	36	56	0.147757255936676
+CA Quimper Bretagne Occidentale	293	20	60	-40	-0.12012012012012
+CC Communauté Lesneven Côte des Légendes	359	47	23	24	0.0716417910447762
+CC Poher communauté	30	0	0	0	0
+CC Pleyben-Châteaulin-Porzay	420	18	33	-15	-0.0344827586206896
+CC de Haute Cornouaille	84	0	8	-8	-0.0869565217391305
+CC Haut-Léon Communauté	633	54	84	-30	-0.0452488687782805
+CC du Pays Bigouden Sud	656	92	62	30	0.0479233226837061
+CA Concarneau Cornouaille Agglomération	394	41	70	-29	-0.0685579196217494
+CA du Pays de Landerneau-Daoulas	193	43	5	38	0.245161290322581
+CC Douarnenez Communauté	132	13	18	-5	-0.0364963503649635
+Brest Métropole	85	0	8	-8	-0.0860215053763441
+CC du Haut Pays Bigouden	383	26	74	-48	-0.111368909512761
+CC Pays d'Uzès	213	0	25	-25	-0.105042016806723
+CC du Piémont Cévenol	129	0	20	-20	-0.134228187919463
+CA du Gard Rhodanien	223	22	27	-5	-0.0219298245614035
+CC de Petite Camargue	65	0	24	-24	-0.269662921348315
+CA Alès Agglomération	368	27	99	-72	-0.163636363636364
+CA du Grand Avignon (COGA)	200	9	12	-3	-0.0147783251231527
+CC du Pays Viganais	130	0	27	-27	-0.171974522292994
+CC Rhony. Vistre. Vidourle	16	0	10	-10	-0.384615384615385
+CC du Pays de Sommières	31	0	3	-3	-0.0882352941176471
+CC Beaucaire Terre d'Argence	69	4	31	-27	-0.28125
+CC du Pont du Gard	51	8	2	6	0.133333333333333
+CA de Nîmes Métropole	114	10	20	-10	-0.0806451612903226
+CC Causses Aigoual Cévennes	133	5	11	-6	-0.0431654676258992
+CC des Cévennes Gangeoises et Suménoises	157	15	20	-5	-0.0308641975308642
+CC Terre de Camargue	18	0	0	0	0
+CC des Terres du Lauragais	201	12	17	-5	-0.0242718446601942
+CC Cœur et Coteaux du Comminges	262	0	18	-18	-0.0642857142857143
+CC Pyrénées Haut Garonnaises	647	24	49	-25	-0.0372023809523809
+CC Cagire Garonne Salat	183	47	45	2	0.011049723756906
+Toulouse Métropole	110	16	20	-4	-0.0350877192982456
+CC du Bassin Auterivain Haut-Garonnais	76	16	81	-65	-0.460992907801418
+CC Cœur de Garonne	112	0	21	-21	-0.157894736842105
+CC des Coteaux du Girou	40	0	14	-14	-0.259259259259259
+CC Val'Aïgo	38	15	0	15	0.652173913043478
+CC des Hauts Tolosans	69	9	19	-10	-0.126582278481013
+CC du Volvestre	92	6	4	2	0.0222222222222221
+CC du Frontonnais	48	0	6	-6	-0.111111111111111
+CA Le Muretain Agglo	83	0	2	-2	-0.0235294117647059
+CC de la Gascogne Toulousaine	61	5	2	3	0.0517241379310345
+CA du Sicoval	58	0	8	-8	-0.121212121212121
+CC de la Save au Touch	14	0	19	-19	-0.575757575757576
+CC Armagnac Adour	103	0	20	-20	-0.16260162601626
+CC du Bas Armagnac	132	13	8	5	0.0393700787401574
+CC Bastides et Vallons du Gers	98	3	5	-2	-0.02
+CC Val de Gers	166	0	32	-32	-0.161616161616162
+CC des Coteaux Arrats Gimone	129	0	0	0	0
+CA Grand Auch Cœur de Gascogne	267	42	20	22	0.0897959183673469
+CC Bastides de Lomagne	182	36	7	29	0.189542483660131
+CC du Grand Armagnac	182	6	31	-25	-0.120772946859903
+CC d'Aire-sur-l'Adour	102	4	4	0	0
+CC Artagnan de Fezensac	172	0	36	-36	-0.173076923076923
+CC de la Tenarèze	433	43	196	-153	-0.261092150170648
+CC Astarac Arros en Gascogne	118	8	0	8	0.0727272727272728
+CC de la Lomagne Gersoise	228	20	52	-32	-0.123076923076923
+CC Cœur d'Astarac en Gascogne	286	0	127	-127	-0.307506053268765
+CC du Saves	101	11	0	11	0.122222222222222
+Bordeaux Métropole	88	0	4	-4	-0.0434782608695652
+CA du Bassin d'Arcachon Nord	159	29	26	3	0.0192307692307692
+CC Rurales de l'Entre-deux-Mers	56	0	12	-12	-0.176470588235294
+CA Bassin d'Arcachon Sud (COBAS)	172	15	4	11	0.0683229813664596
+CC Médoc Estuaire	16	0	0	0	0
+CC du Grand Saint-Émilionnais	76	0	10	-10	-0.116279069767442
+CA du Libournais	40	0	11	-11	-0.215686274509804
+CC du Grand Cubzaguais	42	0	0	0	0
+CC Médullienne	43	0	0	0	0
+CC de Montesquieu	55	8	0	8	0.170212765957447
+CC du Val de l'Eyre	51	0	0	0	0
+CC de Blaye	37	4	8	-4	-0.0975609756097561
+CC Médoc Cœur de Presqu'île	39	4	10	-6	-0.133333333333333
+CC Convergence Garonne	58	0	8	-8	-0.121212121212121
+CC du Bazadais	172	0	0	0	0
+CC Les Rives de la Laurence	39	0	0	0	0
+CC du Sud Gironde	70	10	0	10	0.166666666666667
+CC de l'Estuaire	42	0	3	-3	-0.0666666666666667
+CC Les Coteaux Bordelais	27	0	0	0	0
+CC des Portes de l'Entre-deux-Mers	14	0	3	-3	-0.176470588235294
+CC Médoc Atlantique	143	25	10	15	0.1171875
+CC Castillon/Pujols	85	6	0	6	0.0759493670886076
+CC Jalle-Eau-Bourde	10	0	0	0	0
+CC Latitude Nord Gironde	86	0	14	-14	-0.14
+CC du Créonnais	37	4	0	4	0.121212121212121
+CC du Fronsadais	27	2	8	-6	-0.181818181818182
+CC du Pays Foyen	14	0	0	0	0
+CC du Réolais en Sud Gironde	71	0	0	0	0
+CC Les Avant-Monts	112	48	14	34	0.435897435897436
+CA Hérault-Méditerranée	223	24	4	20	0.0985221674876848
+CC du Minervois au Caroux	173	4	32	-28	-0.139303482587065
+CA de Béziers-Méditerranée	95	44	0	44	0.862745098039216
+CC du Clermontais	44	8	12	-4	-0.0833333333333334
+CC du Grand Pic Saint-Loup	155	8	4	4	0.0264900662251655
+CC Vallée de l'Hérault	236	13	30	-17	-0.067193675889328
+CC Grand Orb communauté de communes en Languedoc	101	0	29	-29	-0.223076923076923
+CA Sète Agglopôle Méditerranée	130	12	16	-4	-0.0298507462686567
+CC du Pays de Lunel	82	14	12	2	0.0249999999999999
+CC des Monts de Lacaune et de la Montagne du Haut Languedoc	250	15	12	3	0.0121457489878543
+CA du Pays de l'Or	24	0	0	0	0
+CC Sud-Hérault	105	16	0	16	0.179775280898876
+Montpellier Méditerranée Métropole	68	23	0	23	0.511111111111111
+CC La Domitienne	78	0	0	0	0
+CC Lodévois et Larzac	77	7	0	7	0.1
+Rennes Métropole	461	38	36	2	0.00435729847494559
+CC Roche aux Fées Communauté	66	13	6	7	0.11864406779661
+CC Couesnon Marches de Bretagne	192	8	17	-9	-0.0447761194029851
+CA Vitré Communauté	98	6	40	-34	-0.257575757575758
+CC du Pays de Dol et de la Baie du Mont Saint-Michel	499	16	88	-72	-0.126094570928196
+CC Bretagne porte de Loire Communauté	72	14	29	-15	-0.172413793103448
+CA Redon Agglomération	172	15	24	-9	-0.0497237569060773
+CC Vallons de Haute-Bretagne Communauté	159	17	11	6	0.0392156862745099
+CC Bretagne Romantique	160	26	20	6	0.0389610389610389
+CA Fougères Agglomération	198	25	35	-10	-0.0480769230769231
+CC de Saint-Méen Montauban	120	44	14	30	0.333333333333333
+CC Liffré-Cormier Communauté	123	26	0	26	0.268041237113402
+CA du Pays de Saint Malo Agglomération	927	65	120	-55	-0.0560081466395111
+CC Pays de Châteaugiron Communauté	98	0	6	-6	-0.0576923076923077
+CC Val d'Ille-Aubigné	148	0	12	-12	-0.075
+CC Montfort Communauté	109	30	17	13	0.135416666666667
+CC Brocéliande Communauté	70	16	9	7	0.111111111111111
+CC Champagne Boischauts	45	0	7	-7	-0.134615384615385
+CC Chabris - Pays de Bazelle	72	11	0	11	0.180327868852459
+CA Châteauroux Métropole	296	12	19	-7	-0.023102310231023
+CC Éguzon - Argenton - Vallée de la Creuse	388	56	15	41	0.118155619596542
+CC du Châtillonnais en Berry	83	16	6	10	0.136986301369863
+CC Cœur de Brenne	205	21	0	21	0.114130434782609
+CC Marche Occitane - Val d'Anglin	215	43	5	38	0.214689265536723
+CC de la Châtre et Sainte-Sévère	314	52	29	23	0.0790378006872852
+CC Brenne - Val de Creuse	458	23	26	-3	-0.00650759219088937
+CC Val de l'Indre - Brenne	99	0	10	-10	-0.0917431192660551
+CC du Val de Bouzanne	141	6	17	-11	-0.0723684210526315
+CC de la Marche Berrichonne	111	18	0	18	0.193548387096774
+CC Écueillé-Valençay	252	20	25	-5	-0.019455252918288
+CC de la Région de Levroux	21	0	0	0	0
+CC Loches Sud Touraine	662	50	70	-20	-0.0293255131964809
+CC Touraine Ouest Val de Loire	375	29	56	-27	-0.0671641791044776
+CC du Val d'Amboise	252	34	31	3	0.0120481927710843
+CC Chinon. Vienne et Loire	338	23	77	-54	-0.137755102040816
+CC Touraine Val de Vienne	263	33	18	15	0.060483870967742
+CC Touraine Vallée de l'Indre	292	2	13	-11	-0.0363036303630363
+CC de Bléré Val de Cher	176	16	10	6	0.0352941176470589
+CC du Castelrenaudais	116	15	5	10	0.0943396226415094
+CC Touraine-Est Vallées	221	4	30	-26	-0.105263157894737
+Tours Métropole Val de Loire	212	13	54	-41	-0.162055335968379
+CC de Gâtine et Choisilles - Pays de Racan	141	0	0	0	0
+CC Le Grésivaudan	329	18	32	-14	-0.0408163265306123
+CC de l'Oisans	462	16	114	-98	-0.175
+CC Les Balcons du Dauphiné	228	6	182	-176	-0.435643564356436
+CC Saint-Marcellin Vercors Isère Communauté	461	10	56	-46	-0.0907297830374754
+CC de Bièvre Est	11	0	0	0	0
+CC Entre Bièvre et Rhône	118	0	0	0	0
+CC Bièvre Isère	119	0	8	-8	-0.062992125984252
+CC Les Vals du Dauphiné	143	2	15	-13	-0.0833333333333334
+CA Porte de l'Isère (C.A.P.I)	27	0	0	0	0
+Grenoble-Alpes-Métropole	147	13	4	9	0.0652173913043479
+CC de la Matheysine	303	17	14	3	0.01
+CA du Pays Voironnais	107	0	4	-4	-0.036036036036036
+CC Lyon Saint Exupéry en Dauphiné	20	0	0	0	0
+CC du Trièves	263	4	36	-32	-0.108474576271186
+CC du Massif du Vercors	942	30	70	-40	-0.0407331975560081
+CA Vienne Condrieu	133	2	22	-20	-0.130718954248366
+CC Cœur de Chartreuse	541	10	19	-9	-0.0163636363636364
+CC des Collines du Nord Dauphiné	0	0	31	-31	-1
+CC Arbois. Poligny. Salins. Cœur du Jura	431	38	41	-3	-0.00691244239631339
+CC Terre d'Émeraude Communauté	889	29	62	-33	-0.0357917570498916
+CC Champagnole Nozeroy Jura	1005	62	105	-43	-0.041030534351145
+CC Bresse Haute Seille	317	16	64	-48	-0.131506849315069
+CA du Grand Dole	90	14	2	12	0.153846153846154
+CC Porte du Jura	93	11	14	-3	-0.03125
+CA ECLA  (Espace Communautaire Lons Agglomération)	100	14	7	7	0.075268817204301
+CC Haut-Jura Saint-Claude	314	17	34	-17	-0.0513595166163142
+CC Haut-Jura Arcade Communauté	198	0	37	-37	-0.157446808510638
+CC de la Station des Rousses-Haut Jura	570	0	29	-29	-0.0484140233722872
+CC du Val d'Amour	94	4	18	-14	-0.12962962962963
+CC La Grandvallière	338	4	6	-2	-0.00588235294117645
+CC de la Plaine Jurassienne	34	12	4	8	0.307692307692308
+CC Jura Nord	28	0	0	0	0
+CC Coteaux et Vallées des Luys	16	0	6	-6	-0.272727272727273
+CA du Grand Dax	191	9	30	-21	-0.0990566037735849
+CC Maremne Adour Côte Sud	525	44	217	-173	-0.247851002865329
+CC du Pays Morcenais	52	16	33	-17	-0.246376811594203
+CC Chalosse Tursan	188	6	48	-42	-0.182608695652174
+CC du Pays Tarusate	38	7	81	-74	-0.660714285714286
+CC de Mimizan	99	10	20	-10	-0.0917431192660551
+CC du Pays Grenadois	31	0	0	0	0
+CC Cœur Haute Lande	138	0	179	-179	-0.564668769716088
+CC Pays d'Orthe et Arrigans	220	18	22	-4	-0.0178571428571429
+CA Mont-de-Marsan Agglomération	60	5	15	-10	-0.142857142857143
+CC des Landes d'Armagnac	56	0	18	-18	-0.243243243243243
+CC du Seignanx	77	10	0	10	0.149253731343284
+CC des Grands Lacs	151	16	76	-60	-0.28436018957346
+CC Terres de Chalosse	170	0	24	-24	-0.123711340206186
+CC Côte Landes Nature	235	11	74	-63	-0.211409395973154
+CC du Pays de Villeneuve en Armagnac Landais	70	0	0	0	0
+CC Val-de-Cher-Controis	625	69	60	9	0.0146103896103895
+CA Territoires Vendômois	120	14	31	-17	-0.124087591240876
+CC Beauce Val de Loire	169	25	39	-14	-0.0765027322404371
+CA de Blois Agglopolys	484	78	52	26	0.0567685589519651
+CC du Grand Chambord	204	29	15	14	0.0736842105263158
+CC Cœur de Sologne	38	0	0	0	0
+CC des Collines du Perche	18	0	16	-16	-0.470588235294118
+CC de la Sologne des Étangs	137	0	0	0	0
+CC de la Sologne des Rivières	21	3	6	-3	-0.125
+CC du Perche et Haut Vendômois	4	0	0	0	0
+CC du Romorantinais et du Monestois	91	6	2	4	0.0459770114942528
+CA Roannais Agglomération	287	0	18	-18	-0.059016393442623
+Saint-Etienne Métropole	94	0	7	-7	-0.0693069306930693
+CA Loire Forez Agglomération	614	16	35	-19	-0.0300157977883097
+CC de Forez-Est	244	14	10	4	0.0166666666666666
+CC Charlieu-Belmont	55	0	6	-6	-0.0983606557377049
+CC des Monts du Pilat	114	21	19	2	0.0178571428571428
+CC des Vals d'Aix et Isable	139	0	26	-26	-0.157575757575758
+CC du Pays d'Urfé	153	22	4	18	0.133333333333333
+CC des Monts du Lyonnais	172	4	57	-53	-0.235555555555556
+CC du Pays entre Loire et Rhône	103	0	0	0	0
+CC du Pilat Rhodanien	35	10	0	10	0.4
+CC Brioude Sud Auvergne	124	29	42	-13	-0.0948905109489051
+CA du Puy-en-Velay	602	16	92	-76	-0.112094395280236
+CC des Pays de Cayres et de Pradelles	260	35	16	19	0.0788381742738589
+CC des Rives du Haut-Allier	306	6	44	-38	-0.11046511627907
+CC des Sucs	201	18	30	-12	-0.0563380281690141
+CC Loire et Semène	26	0	10	-10	-0.277777777777778
+CC Auzon Communauté	66	0	0	0	0
+CC Marches du Velay-Rochebaron	82	0	68	-68	-0.453333333333333
+CC du Haut-Lignon	128	0	2	-2	-0.0153846153846153
+CC Mézenc-Loire-Meygal	497	32	24	8	0.0163599182004091
+CC du Pays de Montfaucon	69	0	10	-10	-0.126582278481013
+CC de Nozay	26	2	8	-6	-0.1875
+CA Clisson Sèvre et Maine Agglo	153	0	4	-4	-0.0254777070063694
+CC du Pays d'Ancenis	142	25	0	25	0.213675213675214
+CA Pornic Agglo Pays de Retz	398	22	77	-55	-0.121412803532009
+CA de la Presqu'île de Guérande Atlantique (Cap Atlantique)	467	35	95	-60	-0.113851992409867
+Nantes Métropole	119	7	31	-24	-0.167832167832168
+CC Grand Lieu Communauté	46	7	12	-5	-0.0980392156862745
+CC de la Région de Blain	60	10	25	-15	-0.2
+CC Estuaire et Sillon	14	0	12	-12	-0.461538461538462
+CC d'Erdre et Gesvres	93	0	15	-15	-0.138888888888889
+CA de la Région Nazairienne et de l'Estuaire (CARENE)	80	14	13	1	0.0126582278481013
+CC du Pays de Pontchâteau Saint-Gildas-des-Bois	78	7	0	7	0.0985915492957747
+CC Châteaubriant-Derval	146	0	15	-15	-0.093167701863354
+CC du Sud Estuaire	81	4	9	-5	-0.0581395348837209
+CC Sèvre et Loire	43	7	0	7	0.194444444444444
+CC Sud Retz Atlantique	67	0	6	-6	-0.0821917808219178
+CA Montargoise et Rives du Loing (A.M.E.)	44	26	0	26	1.44444444444444
+CC des Portes de Sologne	155	2	145	-143	-0.479865771812081
+CC de la Beauce Loirétaine	55	10	8	2	0.0377358490566038
+CC de la Forêt	50	0	0	0	0
+CC de la Plaine du Nord Loiret	61	15	7	8	0.150943396226415
+CC du Pithiverais-Gâtinais	153	2	9	-7	-0.04375
+CC Berry Loire Puisaye	118	49	0	49	0.710144927536232
+CC des Terres du Val de Loire	131	10	5	5	0.0396825396825398
+CC Canaux et Forêts en Gâtinais	110	0	8	-8	-0.0677966101694916
+Orléans Métropole	129	27	14	13	0.112068965517241
+CC du Val de Sully	206	40	46	-6	-0.0283018867924528
+CC des Loges	201	0	27	-27	-0.118421052631579
+CC Giennoises	140	6	10	-4	-0.0277777777777778
+CC des Quatre Vallées	62	0	0	0	0
+CC du Pithiverais	4	4	0	4	-
+CC de la Cléry. du Betz et de l'Ouanne	68	3	0	3	0.0461538461538462
+CC de la Vallée du Lot et du Vignoble	155	20	45	-25	-0.138888888888889
+CC Causses et Vallée de la Dordogne	898	49	175	-126	-0.123046875
+CC du Pays de Lalbenque-Limogne	150	4	43	-39	-0.206349206349206
+CC du Quercy Blanc	185	13	45	-32	-0.147465437788018
+CA du Grand Cahors	295	41	53	-12	-0.0390879478827362
+CC du Causse de Labastide-Murat	153	0	27	-27	-0.15
+CC Cazals-Salviac	79	8	15	-7	-0.0813953488372093
+CC Quercy - Bouriane	123	2	36	-34	-0.21656050955414
+CA Agglomération d'Agen	322	30	6	24	0.080536912751678
+CC du Confluent et des Coteaux de Prayssas	195	23	30	-7	-0.0346534653465347
+CC Albret Communauté	250	8	56	-48	-0.161073825503356
+CC du Pays de Duras	87	16	0	16	0.225352112676056
+CA Val de Garonne Agglomération	280	23	5	18	0.0687022900763359
+CA du Grand Villeneuvois	389	14	23	-9	-0.0226130653266332
+CC des Bastides en Haut-Agenais Périgord	408	43	266	-223	-0.353407290015848
+CC des Coteaux et Landes de Gascogne	49	8	0	8	0.195121951219512
+CC Fumel Vallée du Lot	179	6	52	-46	-0.204444444444444
+CC des Deux Rives	161	0	17	-17	-0.0955056179775281
+CC Lot et Tolzac	102	0	20	-20	-0.163934426229508
+CC du Pays de Lauzun	82	2	30	-28	-0.254545454545455
+CC des Hautes Terres de l'Aubrac	242	32	6	26	0.12037037037037
+CC Mont Lozère	178	0	6	-6	-0.0326086956521739
+CC du Gévaudan	78	8	11	-3	-0.0370370370370371
+CC Randon - Margeride	160	7	5	2	0.0126582278481013
+CC du Haut Allier	77	14	9	5	0.0694444444444444
+CC Cœur de Lozère	48	0	0	0	0
+CC Aubrac Lot Causses Tarn	231	10	48	-38	-0.141263940520446
+CC Gorges Causses Cévennes	353	48	45	3	0.00857142857142867
+CC des Cévennes au Mont Lozère	145	21	21	0	0
+CC des Terres d'Apcher-Margeride-Aubrac	204	20	6	14	0.0736842105263158
+CA Saumur Val de Loire	335	30	58	-28	-0.0771349862258953
+CU Angers Loire Métropole	203	20	20	0	0
+CC Anjou Bleu Communauté	42	12	0	12	0.4
+CC Loire Layon Aubance	349	31	13	18	0.054380664652568
+CC Anjou Loir et Sarthe	51	8	13	-5	-0.0892857142857143
+CC Baugeois Vallée	100	6	19	-13	-0.115044247787611
+CA Mauges Communauté	223	33	85	-52	-0.189090909090909
+CA Agglomération du Choletais	59	12	18	-6	-0.0923076923076923
+CC des Vallées du Haut-Anjou	70	4	4	0	0
+CC Coutances Mer et Bocage	529	40	45	-5	-0.00936329588014984
+CC de la Baie du Cotentin	197	0	105	-105	-0.347682119205298
+CA du Cotentin	1286	79	222	-143	-0.100069979006298
+CA Mont-Saint-Michel-Normandie	724	28	312	-284	-0.281746031746032
+CA Saint-Lô Agglo	119	0	67	-67	-0.360215053763441
+CC de Granville. Terre et Mer	281	0	85	-85	-0.23224043715847
+CC de Villedieu Intercom	87	0	51	-51	-0.369565217391304
+CC Côte Ouest Centre Manche	218	11	0	11	0.0531400966183575
+CC de Sézanne-Sud Ouest Marnais	128	28	8	20	0.185185185185185
+CU du Grand Reims	229	16	22	-6	-0.0255319148936171
+CA Épernay. Coteaux et Plaine de Champagne	145	13	56	-43	-0.228723404255319
+CC de la Grande Vallée de la Marne	98	9	5	4	0.0425531914893618
+CA de Châlons-en-Champagne	99	17	0	17	0.207317073170732
+CC des Paysages de la Champagne	335	23	13	10	0.0307692307692307
+CC Perthois-Bocage et Der	131	29	35	-6	-0.0437956204379562
+CC Côtes de Champagne et Val de Saulx	42	6	0	6	0.166666666666667
+CC de la Région de Suippes	15	0	15	-15	-0.5
+CC de l'Argonne Champenoise	38	0	12	-12	-0.24
+CC de Vitry. Champagne et Der	55	8	0	8	0.170212765957447
+CC de la Moivre à la Coole	61	0	0	0	0
+CA de Saint-Dizier Der et Blaise	170	12	42	-30	-0.15
+CC de la Brie Champenoise	34	4	0	4	0.133333333333333
+CC du Sud Marnais	16	10	0	10	1.66666666666667
+CC Meuse Rognon	98	0	14	-14	-0.125
+CC d'Auberive Vingeanne et Montsaugeonnais	76	0	11	-11	-0.126436781609195
+CC des Savoir-Faire	53	0	35	-35	-0.397727272727273
+CC des Trois Forêts	64	0	20	-20	-0.238095238095238
+CA de Chaumont	49	0	0	0	0
+CC du Bassin de Joinville en Champagne	76	0	7	-7	-0.0843373493975904
+CC du Grand Langres	92	13	7	6	0.069767441860465
+CA Laval Agglomération	155	0	62	-62	-0.285714285714286
+CC Mayenne Communauté	90	0	17	-17	-0.158878504672897
+CC du Bocage Mayennais	147	3	3	0	0
+CC de l'Ernée	118	0	43	-43	-0.267080745341615
+CC du Pays de Meslay-Grez	162	6	27	-21	-0.114754098360656
+CC du Pays de Craon	163	0	12	-12	-0.0685714285714286
+CC du Mont des Avaloirs	117	8	9	-1	-0.00847457627118642
+CC des Coëvrons	334	22	17	5	0.0151975683890577
+CC du Pays de Château-Gontier	124	11	0	11	0.0973451327433628
+CC de Seille et Grand Couronné	75	6	0	6	0.0869565217391304
+CC du Pays de Colombey et du Sud Toulois	32	0	6	-6	-0.157894736842105
+CC de Vezouze en Piémont	149	0	4	-4	-0.0261437908496732
+CC du Pays du Sanon	60	6	14	-8	-0.117647058823529
+CC Terres Touloises	81	2	12	-10	-0.10989010989011
+CC du Territoire de Lunéville à Baccarat	61	6	0	6	0.109090909090909
+CC Orne Lorraine Confluences	87	0	0	0	0
+CC Terre Lorraine du Longuyonnais	46	0	2	-2	-0.0416666666666666
+CC Mad et Moselle	98	6	0	6	0.0652173913043479
+CA de Saint-Dié-des-Vosges	543	91	73	18	0.0342857142857143
+CC Meurthe Mortagne Moselle	55	0	0	0	0
+CC Coeur du Pays Haut	12	0	0	0	0
+CC du Bassin de Pont-à-Mousson	90	0	0	0	0
+CC du Pays du Saintois	76	0	0	0	0
+CC des Pays du Sel et du Vermois	31	12	6	6	0.24
+CC Moselle et Madon	18	2	0	2	0.125
+CA Grand Longwy Agglomération	20	10	6	4	0.25
+Métropole du Grand Nancy	61	6	0	6	0.109090909090909
+CC du Bassin de Pompey	27	0	0	0	0
+CC Val de Meuse - Voie Sacrée	18	3	0	3	0.2
+CC des Portes de Meuse	68	6	7	-1	-0.0144927536231884
+CA de Bar-le-Duc - Sud Meuse	26	8	0	8	0.444444444444444
+CC du Pays de Montmédy	11	0	4	-4	-0.266666666666667
+CC de l'Aire à l'Argonne	22	0	6	-6	-0.214285714285714
+CA du Grand Verdun	25	15	8	7	0.388888888888889
+CC de Damvillers Spincourt	22	0	0	0	0
+CC Côtes de Meuse Woëvre	100	8	6	2	0.0204081632653061
+CC Argonne-Meuse	17	0	0	0	0
+CC du Pays de Revigny-sur-Ornain	12	0	6	-6	-0.333333333333333
+CC du Pays d'Étain	11	3	0	3	0.375
+CC du Pays de Stenay et du Val Dunois	66	14	0	14	0.269230769230769
+CC de Commercy - Void - Vaucouleurs	73	0	6	-6	-0.0759493670886076
+CC du Sammiellois	6	0	10	-10	-0.625
+CC du Territoire de Fresnes-en-Woëvre	24	0	7	-7	-0.225806451612903
+CC Arc Sud Bretagne	384	53	73	-20	-0.0495049504950495
+CA Golfe du Morbihan - Vannes Agglomération	996	182	246	-64	-0.060377358490566
+CC de l'Oust à Brocéliande	154	5	32	-27	-0.149171270718232
+CC Auray Quiberon Terre Atlantique	1934	262	263	-1	-0.000516795865633024
+CC de Belle-Île-en-Mer	127	35	15	20	0.186915887850467
+CC Baud Communauté	141	4	46	-42	-0.229508196721312
+CC Roi Morvan Communauté	237	15	64	-49	-0.171328671328671
+CC Questembert Communauté	221	25	44	-19	-0.0791666666666667
+CC Centre Morbihan Communauté	70	22	45	-23	-0.247311827956989
+CA Lorient Agglomération	847	95	76	19	0.0229468599033817
+CC Ploërmel Communauté	192	25	6	19	0.109826589595376
+CC Pontivy Communauté	158	46	13	33	0.264
+CC de Blavet Bellevue Océan	382	30	28	2	0.00526315789473686
+CC Sarrebourg Moselle Sud	207	24	59	-35	-0.144628099173554
+CC Bouzonvillois-Trois Frontières	91	0	14	-14	-0.133333333333333
+Metz Métropole	78	6	0	6	0.0833333333333333
+CC du Sud Messin	30	0	4	-4	-0.117647058823529
+CC Haut Chemin-Pays de Pange	42	0	13	-13	-0.236363636363636
+CA Saint-Avold Synergie	15	0	6	-6	-0.285714285714286
+CC du Pays de Phalsbourg	113	6	0	6	0.0560747663551402
+CC Houve-Pays Boulageois	23	0	6	-6	-0.206896551724138
+CC de Cattenom et Environs	40	0	0	0	0
+CC du Pays de Bitche	72	0	9	-9	-0.111111111111111
+CC du Saulnois	122	0	5	-5	-0.0393700787401575
+CC de Freyming-Merlebach	23	0	0	0	0
+CC Rives de Moselle	17	0	2	-2	-0.105263157894737
+CA de Forbach Porte de France	29	0	0	0	0
+CA Sarreguemines Confluences	59	9	4	5	0.0925925925925926
+CC de l'Arc Mosellan	28	0	0	0	0
+CC du District Urbain de Faulquemont (DUF)	12	0	8	-8	-0.4
+CC du Pays Orne Moselle	8	4	0	4	1
+CC du Warndt	8	0	0	0	0
+CC Bazois Loire Morvan	183	18	36	-18	-0.0895522388059702
+CC Morvan Sommets et Grands Lacs	407	39	18	21	0.0544041450777202
+CC Tannay-Brinon-Corbigny	131	14	0	14	0.11965811965812
+CC de Puisaye-Forterre	389	7	28	-21	-0.051219512195122
+CC Sud Nivernais	105	15	12	3	0.0294117647058822
+CC Amognes Cœur du Nivernais	40	9	30	-21	-0.344262295081967
+CA de Nevers	59	17	11	6	0.113207547169811
+CC Haut Nivernais-Val d'Yonne	81	0	5	-5	-0.0581395348837209
+CC Cœur de Loire	88	7	14	-7	-0.0736842105263158
+CC du Nivernais Bourbonnais	8	0	0	0	0
+CC Loire et Allier	56	6	8	-2	-0.0344827586206896
+CA de Cambrai	200	14	7	7	0.0362694300518134
+CA de la Porte du Hainaut	164	35	18	17	0.115646258503401
+CC Pévèle-Carembault	170	10	7	3	0.0179640718562875
+CC Cœur d'Ostrevent	90	0	3	-3	-0.032258064516129
+CC du Sud Avesnois	103	11	0	11	0.119565217391304
+CU de Dunkerque	67	18	66	-48	-0.417391304347826
+CA Douaisis Agglo	216	16	38	-22	-0.092436974789916
+CC du Pays de Mormal	187	28	56	-28	-0.130232558139535
+CC Cœur de l'Avesnois	210	12	10	2	0.00961538461538458
+CC de Flandre Intérieure	552	38	26	12	0.0222222222222221
+CA du Caudrésis et du Catésis	39	6	10	-4	-0.0930232558139535
+Métropole Européenne de Lille	428	18	26	-8	-0.018348623853211
+CC du Pays Solesmois	39	0	0	0	0
+CC des Hauts de Flandre	227	18	25	-7	-0.0299145299145299
+CA Maubeuge Val de Sambre	44	6	4	2	0.0476190476190477
+CA Valenciennes Métropole	79	0	0	0	0
+CC Flandre Lys	77	0	2	-2	-0.0253164556962026
+CC Thelloise	79	10	4	6	0.0821917808219179
+CC du Pays de Valois	206	59	16	43	0.263803680981595
+CC du Plateau Picard	64	6	7	-1	-0.0153846153846153
+CC du Pays des Sources	102	14	11	3	0.0303030303030303
+CC des Sablons	28	0	6	-6	-0.176470588235294
+CA de la Région de Compiègne et de la Basse Automne	114	5	7	-2	-0.0172413793103449
+CC des Lisières de l'Oise	82	25	0	25	0.43859649122807
+CA du Beauvaisis	186	19	8	11	0.0628571428571429
+CC de la Plaine d'Estrées	39	0	4	-4	-0.0930232558139535
+CC du Liancourtois	0	0	6	-6	-1
+CC Senlis Sud Oise	61	9	0	9	0.173076923076923
+CC de la Picardie Verte	146	6	100	-94	-0.391666666666667
+CC du Vexin-Thelle	83	0	0	0	0
+CC de l'Oise Picarde	78	0	0	0	0
+CC du Pays Noyonnais	116	2	26	-24	-0.171428571428571
+CC de l'Aire Cantilienne	13	0	8	-8	-0.380952380952381
+CC du Pays de Bray	81	6	5	1	0.0125
+CC du Clermontois	8	0	0	0	0
+CC des Pays d'Oise et d'Halatte	4	0	0	0	0
+CC des Deux Vallées	84	0	8	-8	-0.0869565217391305
+CA Creil Sud Oise	4	0	0	0	0
+CU d'Alençon	123	7	43	-36	-0.226415094339623
+CC des Sources de l'Orne	158	6	0	6	0.0394736842105263
+CC Argentan Intercom	251	4	33	-29	-0.103571428571429
+CA Flers Agglo	323	24	8	16	0.0521172638436482
+CC des Pays de L'Aigle	104	9	35	-26	-0.2
+CC de la Vallée de la Haute Sarthe	181	33	13	20	0.124223602484472
+CC des Vallées d'Auge et du Merlerault	100	5	24	-19	-0.159663865546218
+CC du Val d'Orne	124	0	0	0	0
+CC du Pays de Mortagne-au-Perche	302	6	103	-97	-0.243107769423559
+CC des Collines du Perche Normand	175	0	27	-27	-0.133663366336634
+CC Cœur du Perche	163	20	6	14	0.0939597315436242
+CC des Hauts du Perche	343	5	21	-16	-0.0445682451253482
+CC Andaine - Passais	332	16	33	-17	-0.0487106017191977
+CC du Pays Fertois et du Bocage Carrougien	50	0	4	-4	-0.0740740740740741
+CC Domfront Tinchebray Interco	161	2	14	-12	-0.0693641618497109
+CC Maine Saosnois	202	0	10	-10	-0.0471698113207547
+CA de Lens - Liévin	104	0	0	0	0
+CC du Pays de Lumbres	78	0	6	-6	-0.0714285714285714
+CC des Campagnes de l'Artois	53	10	12	-2	-0.0363636363636364
+CU d'Arras	56	0	20	-20	-0.263157894736842
+CA du Pays de Saint-Omer	181	19	11	8	0.046242774566474
+CA des Deux Baies en Montreuillois	313	0	8	-8	-0.0249221183800623
+CC des 7 Vallées	103	2	9	-7	-0.0636363636363636
+CC de la Terre des Deux Caps	335	0	8	-8	-0.0233236151603499
+CA de Béthune-Bruay. Artois-Lys Romane	194	2	27	-25	-0.114155251141553
+CC Pays d'Opale	71	6	39	-33	-0.317307692307692
+CC Osartis Marquion	73	22	8	14	0.23728813559322
+CA Grand Calais Terres et Mers	111	8	35	-27	-0.195652173913043
+CC de la Région d'Audruicq	96	6	0	6	0.0666666666666667
+CC du Ternois	26	0	0	0	0
+CA du Boulonnais	175	17	35	-18	-0.0932642487046632
+CC du Sud-Artois	77	6	6	0	0
+CC du Haut Pays du Montreuillois	155	0	9	-9	-0.0548780487804879
+CC de Desvres-Samer	172	9	0	9	0.0552147239263803
+CA d'Hénin-Carvin	8	4	0	4	1
+CC Ambert Livradois Forez	307	54	83	-29	-0.0863095238095238
+CA Agglo Pays d'Issoire	364	38	32	6	0.0167597765363128
+CC du Pays de Saint-Éloy	130	0	8	-8	-0.0579710144927537
+CC Plaine Limagne	40	0	0	0	0
+Clermont Auvergne Métropole	198	14	4	10	0.053191489361702
+CC Thiers Dore et Montagne	142	5	18	-13	-0.0838709677419355
+CC Dômes Sancy Artense	786	38	48	-10	-0.0125628140703518
+CC Mond'Arverne Communauté	113	20	19	1	0.0089285714285714
+CC Billom Communauté	58	4	88	-84	-0.591549295774648
+CC Combrailles Sioule et Morge	46	0	32	-32	-0.41025641025641
+CC Entre Dore et Allier	16	0	11	-11	-0.407407407407407
+CC Chavanon Combrailles et Volcans	234	6	47	-41	-0.149090909090909
+CA Riom Limagne et Volcans	114	14	6	8	0.0754716981132075
+CC du Haut-Béarn	405	8	98	-90	-0.181818181818182
+CA du Pays Basque	2229	134	402	-268	-0.107328794553464
+CC du Nord Est Béarn	109	9	14	-5	-0.043859649122807
+CA Pau Béarn Pyrénées	106	14	56	-42	-0.283783783783784
+CC de Lacq-Orthez	162	17	16	1	0.0062111801242235
+CC Pays de Nay	143	2	23	-21	-0.128048780487805
+CC de la Vallée d'Ossau	225	30	35	-5	-0.0217391304347826
+CC des Luys en Béarn	113	12	6	6	0.0560747663551402
+CC du Béarn des Gaves	128	10	8	2	0.0158730158730158
+CC Adour Madiran	95	0	29	-29	-0.233870967741935
+CC Pyrénées Vallées des Gaves	1202	103	189	-86	-0.0667701863354038
+CA Tarbes-Lourdes-Pyrénées	475	28	95	-67	-0.123616236162362
+CC Aure Louron	636	70	35	35	0.0582362728785357
+CC du Pays de Trie et du Magnoac	97	10	12	-2	-0.0202020202020202
+CC du Plateau de Lannemezan	97	0	5	-5	-0.0490196078431373
+CC de la Haute-Bigorre	323	20	11	9	0.0286624203821657
+CC Neste Barousse	106	0	5	-5	-0.045045045045045
+CC des Coteaux du Val d'Arros	37	2	0	2	0.0571428571428572
+CC Sud-Roussillon	103	9	4	5	0.0510204081632653
+CC du Haut Vallespir	204	10	24	-14	-0.0642201834862385
+CC Pyrénées catalanes	309	27	99	-72	-0.188976377952756
+CC Pyrénées Cerdagne	141	0	0	0	0
+CC Agly Fenouillèdes	117	0	18	-18	-0.133333333333333
+CC des Albères. de la Côte Vermeille et de l'Illibéris	462	49	27	22	0.05
+CU Perpignan Méditerranée Métropole	315	33	13	20	0.0677966101694916
+CC des Aspres	205	8	24	-16	-0.0723981900452488
+CC Roussillon-Conflent	80	0	8	-8	-0.0909090909090909
+CC du Vallespir	104	4	19	-15	-0.126050420168067
+CC Conflent-Canigó	280	0	40	-40	-0.125
+Eurométropole de Strasbourg	169	2	29	-27	-0.137755102040816
+CC de la Vallée de Villé	196	0	25	-25	-0.113122171945701
+CC de la Région de Molsheim-Mutzig	36	0	0	0	0
+CC du Pays de Barr	280	6	14	-8	-0.0277777777777778
+CC du Ried de Marckolsheim	113	4	2	2	0.0180180180180181
+CC de l'Outre-Forêt	47	0	0	0	0
+CC de la Mossig et du Vignoble	162	3	10	-7	-0.0414201183431953
+CC de Sélestat	231	0	18	-18	-0.072289156626506
+CC de la Vallée de la Bruche	90	5	90	-85	-0.485714285714286
+CC du Canton d'Erstein	187	4	14	-10	-0.050761421319797
+CC du Pays de Sainte-Odile	47	0	0	0	0
+CA de Haguenau	83	15	0	15	0.220588235294118
+CC du Kochersberg	70	2	10	-8	-0.102564102564103
+CC de l'Alsace Bossue	27	0	0	0	0
+CC Sauer-Pechelbronn	148	0	14	-14	-0.0864197530864198
+CC des Portes de Rosheim	96	6	21	-15	-0.135135135135135
+CC de Hanau-La Petite Pierre	155	13	29	-16	-0.0935672514619883
+CC du Pays de Wissembourg	63	0	6	-6	-0.0869565217391305
+CC de la Plaine du Rhin	54	0	4	-4	-0.0689655172413793
+CC du Pays de Saverne	79	0	8	-8	-0.0919540229885057
+CC du Pays de la Zorn	59	0	10	-10	-0.144927536231884
+CC du Pays de Niederbronn-les-Bains	71	0	0	0	0
+CC du Pays Rhénan	4	0	0	0	0
+CC Pays Rhin - Brisach	72	0	14	-14	-0.162790697674419
+CC de la Vallée de Kaysersberg	458	0	36	-36	-0.0728744939271255
+CC Sud Alsace Largue	39	0	0	0	0
+CC de Thann-Cernay	104	0	0	0	0
+CC du Pays de Ribeauvillé	372	0	30	-30	-0.0746268656716418
+CC de la Région de Guebwiller	71	0	5	-5	-0.0657894736842105
+CA Mulhouse Alsace Agglomération	49	0	10	-10	-0.169491525423729
+CC Sundgau	100	0	9	-9	-0.0825688073394495
+CA Colmar Agglomération	256	0	39	-39	-0.132203389830508
+CC de la Vallée de Munster	383	0	43	-43	-0.10093896713615
+CC de la Vallée de la Doller et du Soultzbach	94	0	31	-31	-0.248
+CC du Pays de Rouffach. Vignobles et Châteaux	242	0	11	-11	-0.0434782608695652
+CC du Centre du Haut-Rhin	56	0	13	-13	-0.188405797101449
+CC de la Vallée de Saint-Amarin	199	0	8	-8	-0.038647342995169
+CA Saint-Louis Agglomération	36	0	8	-8	-0.181818181818182
+CC du Val d'Argent	141	0	0	0	0
+CA de l'Ouest Rhodanien	235	26	67	-41	-0.148550724637681
+Métropole de Lyon	153	18	11	7	0.047945205479452
+CC Beaujolais Pierres Dorées	268	10	63	-53	-0.165109034267913
+CC Saône-Beaujolais	1011	45	42	3	0.00297619047619047
+CA Villefranche Beaujolais Saône	257	0	4	-4	-0.0153256704980843
+CC du Pays de l'Arbresle (CCPA)	146	0	23	-23	-0.136094674556213
+CC de la Vallée du Garon (CCVG)	13	0	2	-2	-0.133333333333333
+CC des Vallons du Lyonnais (CCVL)	63	0	20	-20	-0.240963855421687
+CC du Pays Mornantais (COPAMO)	56	15	13	2	0.037037037037037
+CC du Pays de l'Ozon	35	0	6	-6	-0.146341463414634
+CC de l'Est Lyonnais (CCEL)	23	2	0	2	0.0952380952380953
+CC Terres de Saône	59	18	0	18	0.439024390243902
+CC des 1000 étangs	134	36	15	21	0.185840707964602
+CC des Hauts du Val de Saône	45	5	4	1	0.0227272727272727
+CC de la Haute Comté	88	6	14	-8	-0.0833333333333334
+CC des Quatre Rivières	136	13	0	13	0.105691056910569
+CC des Monts de Gy	42	0	6	-6	-0.125
+CC du Pays de Montbozon et du Chanois	62	0	10	-10	-0.138888888888889
+CC Rahin et Chérimont	39	0	0	0	0
+CA de Vesoul	18	0	17	-17	-0.485714285714286
+CC des Combes	35	0	8	-8	-0.186046511627907
+CC du Pays de Villersexel	36	0	0	0	0
+CC du Pays d'Héricourt	4	0	0	0	0
+CC du Pays de Luxeuil	61	16	3	13	0.270833333333333
+CC du Pays Riolais	32	4	0	4	0.142857142857143
+CC Val de Gray	49	0	0	0	0
+CC du Pays de Lure	12	0	0	0	0
+CC du Triangle Vert	8	0	0	0	0
+CA Le Grand Chalon	209	15	73	-58	-0.217228464419476
+CC Brionnais Sud Bourgogne	114	0	16	-16	-0.123076923076923
+CC du Clunisois	256	3	10	-7	-0.0266159695817491
+CC du Grand Autunois Morvan	332	10	68	-58	-0.148717948717949
+CC de Marcigny	89	0	0	0	0
+CC Bresse Nord Intercom'	144	18	12	6	0.0434782608695652
+CA Mâconnais Beaujolais Agglomération	364	40	13	27	0.0801186943620178
+CC Terres de Bresse	146	0	5	-5	-0.0331125827814569
+CC Sud Côte Chalonnaise	178	5	21	-16	-0.0824742268041238
+CU Le Creusot Montceau-les-Mines	138	8	8	0	0
+CC Bresse Revermont 71	75	8	4	4	0.056338028169014
+CC Entre Arroux. Loire et Somme	193	27	23	4	0.0211640211640212
+CC Saint Cyr Mère Boitier entre Charolais et Mâconnais	113	20	13	7	0.0660377358490567
+CC Entre Saône et Grosne	128	0	19	-19	-0.129251700680272
+CC Bresse Louhannaise Intercom'	189	24	4	20	0.118343195266272
+CC de Semur-en-Brionnais	121	4	13	-9	-0.0692307692307692
+CC Mâconnais - Tournugeois	126	0	8	-8	-0.0597014925373134
+CC Saône Doubs Bresse	54	0	10	-10	-0.15625
+CC Haute Sarthe Alpes Mancelles	248	12	41	-29	-0.104693140794224
+CC Le Gesnois Bilurien	140	0	38	-38	-0.213483146067416
+CU Le Mans Métropole	158	26	24	2	0.0128205128205128
+CC Communauté de communes du Pays Sabolien	118	2	13	-11	-0.0852713178294574
+CC Sud Sarthe	123	0	7	-7	-0.0538461538461539
+CC Loué - Brûlon - Noyen	110	0	34	-34	-0.236111111111111
+CC Maine Cœur de Sarthe	38	0	23	-23	-0.377049180327869
+CC du Pays Fléchois	86	25	15	10	0.131578947368421
+CC Loir-Lucé-Bercé	135	0	12	-12	-0.0816326530612245
+CC du Pays de l'Huisne Sarthoise	133	19	0	19	0.166666666666667
+CC des Vallées de la Braye et de l'Anille	107	25	20	5	0.0490196078431373
+CC du Val de Sarthe	31	0	6	-6	-0.162162162162162
+CC du Sud Est Manceau	52	15	62	-47	-0.474747474747475
+CC de la Champagne Conlinoise et du Pays de Sillé	214	35	42	-7	-0.0316742081447964
+CC Orée de Bercé - Belinois	183	15	8	7	0.0397727272727273
+CC des Vallées d'Aigueblanche	177	0	3	-3	-0.0166666666666667
+CA du Grand Chambéry	615	95	133	-38	-0.0581929555895865
+CC Les Versants d'Aime	441	24	35	-11	-0.0243362831858407
+CA Grand Lac	409	12	13	-1	-0.0024390243902439
+CA Arlysère	1830	221	140	81	0.0463121783876501
+CC Cœur de Maurienne Arvan	623	41	73	-32	-0.0488549618320611
+CC Val Vanoise	648	22	59	-37	-0.054014598540146
+CC Cœur de Savoie	207	10	23	-13	-0.0590909090909091
+CC Porte de Maurienne	35	0	9	-9	-0.204545454545455
+CC du Lac d'Aiguebelette (CCLA)	124	8	16	-8	-0.0606060606060606
+CC Haute Maurienne Vanoise	1009	48	37	11	0.0110220440881763
+CC Val Guiers	57	11	12	-1	-0.0172413793103449
+CC de Haute-Tarentaise	576	35	19	16	0.0285714285714285
+CC du Canton de La Chambre	124	0	0	0	0
+CC Cœur de Tarentaise	256	24	22	2	0.00787401574803148
+CC de Yenne	117	10	4	6	0.0540540540540539
+CC Maurienne Galibier	580	22	39	-17	-0.0284757118927973
+CC Pays d'Évian Vallée d'Abondance	884	76	84	-8	-0.00896860986547088
+CA du Grand Annecy	394	29	71	-42	-0.0963302752293578
+CC des Vallées de Thônes	1344	49	60	-11	-0.00811808118081181
+CA Thonon Agglomération	88	6	8	-2	-0.0222222222222223
+CC Cluses-Arve et Montagnes	90	22	5	17	0.232876712328767
+CC Arve et Salève	16	0	0	0	0
+CC Fier et Usses	27	6	6	0	0
+CC du Haut-Chablais	472	19	42	-23	-0.0464646464646464
+CC de la Vallée Verte	60	8	23	-15	-0.2
+CC Faucigny-Glières	28	0	0	0	0
+CC du Pays de Cruseilles	30	0	0	0	0
+CC de la Vallée de Chamonix-Mont-Blanc	275	23	9	14	0.053639846743295
+CC des Montagnes du Giffre	727	33	44	-11	-0.0149051490514905
+CC du Genevois	10	2	6	-4	-0.285714285714286
+CC Pays du Mont-Blanc	1102	18	57	-39	-0.0341805433829974
+CC Rumilly Terre de Savoie	63	18	14	4	0.0677966101694916
+CC des Sources du Lac d'Annecy	171	12	63	-51	-0.22972972972973
+CC du Pays Rochois	8	0	0	0	0
+CC Yvetot Normandie	58	14	46	-32	-0.355555555555556
+CC Terroir de Caux	258	15	26	-11	-0.0408921933085502
+Métropole Rouen Normandie	234	29	41	-12	-0.0487804878048781
+CC Inter-Caux-Vexin	299	6	18	-12	-0.0385852090032154
+CA Fécamp Caux Littoral Agglomération	511	65	34	31	0.0645833333333334
+CU Le Havre Seine Métropole	817	60	50	10	0.0123915737298637
+CC de la Côte d'Albâtre	434	14	105	-91	-0.173333333333333
+CC Campagne-de-Caux	124	0	17	-17	-0.120567375886525
+CC Interrégionale Aumale - Blangy-sur-Bresle	109	6	4	2	0.0186915887850467
+CC des 4 Rivières	141	0	86	-86	-0.378854625550661
+CC de Londinières	32	0	0	0	0
+CC Caux - Austreberthe	27	0	0	0	0
+CC des Villes Sœurs	236	32	10	22	0.102803738317757
+CA Caux Seine Agglo	318	8	58	-50	-0.135869565217391
+CC Plateau de Caux-Doudeville-Yerville	76	19	31	-12	-0.136363636363636
+CC Communauté Bray-Eawy	158	4	32	-28	-0.150537634408602
+CC Falaises du Talou	135	26	59	-33	-0.196428571428571
+CA de la Région Dieppoise	113	0	36	-36	-0.241610738255034
+CA du Pays de Fontainebleau	283	4	15	-11	-0.0374149659863946
+CA Coulommiers Pays de Brie	174	8	18	-10	-0.0543478260869565
+CC Bassée-Montois	133	0	20	-20	-0.130718954248366
+CC du Provinois	214	4	19	-15	-0.0655021834061136
+CC Gâtinais Val de Loing	141	0	0	0	0
+CC Brie des Rivières et Châteaux	129	28	4	24	0.228571428571429
+CA Melun Val de Seine	81	10	0	10	0.140845070422535
+CC Pays de Nemours	60	0	4	-4	-0.0625
+CA Marne et Gondoire	4	0	0	0	0
+CA Grand Paris Sud Seine Essonne Sénart	37	0	9	-9	-0.195652173913043
+CC Brie Nangissienne	79	2	0	2	0.025974025974026
+CC Val Briard	122	15	18	-3	-0.024
+CC l'Orée de la Brie	3	0	0	0	0
+CC Pays de Montereau	60	6	0	6	0.111111111111111
+CC des Deux Morin	114	0	21	-21	-0.155555555555556
+CC du Pays de l'Ourcq	193	4	4	0	0
+CC Moret Seine et Loing	127	0	0	0	0
+CA du Pays de Meaux	8	0	0	0	0
+CC Plaines et Monts de France	21	6	6	0	0
+CA Roissy Pays de France	12	0	0	0	0
+CA Val d'Europe Agglomération	25	0	0	0	0
+CU Grand Paris Seine et Oise	95	12	13	-1	-0.0104166666666666
+CA Rambouillet Territoires	138	4	7	-3	-0.0212765957446809
+CA Versailles Grand Parc (C.A.V.G.P.)	20	0	0	0	0
+CC Les Portes de l'Ile de France	23	14	0	14	1.55555555555556
+CC Cœur d'Yvelines	46	0	6	-6	-0.115384615384615
+CC Gally Mauldre	23	8	6	2	0.0952380952380953
+CC de la Haute Vallée de Chevreuse	35	0	4	-4	-0.102564102564103
+CA Saint Germain Boucles de Seine	44	0	3	-3	-0.0638297872340425
+CA de Saint-Quentin-en-Yvelines	19	0	0	0	0
+CA du Niortais	519	54	60	-6	-0.0114285714285715
+CC Airvaudais-Val du Thouet	28	6	9	-3	-0.0967741935483871
+CC Val de Gâtine	189	17	25	-8	-0.0406091370558376
+CA du Bocage Bressuirais	512	48	60	-12	-0.0229007633587787
+CC de Parthenay-Gâtine	171	13	34	-21	-0.109375
+CC Haut Val de Sèvre	76	0	33	-33	-0.302752293577982
+CC Mellois en Poitou	551	36	11	25	0.0475285171102662
+CC du Thouarsais	187	0	0	0	0
+CC du Vimeu	246	0	22	-22	-0.082089552238806
+CC Ponthieu-Marquenterre	412	12	65	-53	-0.113978494623656
+CC Avre Luce Noye	17	0	0	0	0
+CC du Pays du Coquelicot	148	0	46	-46	-0.237113402061856
+CC Somme Sud-Ouest	94	0	0	0	0
+CA Amiens Métropole	52	0	0	0	0
+CC Nièvre et Somme	25	6	3	3	0.136363636363636
+CA de la Baie de Somme	347	45	68	-23	-0.0621621621621622
+CC du Grand Roye	44	0	0	0	0
+CC Terre de Picardie	28	0	0	0	0
+CC du Territoire Nord Picardie	73	2	2	0	0
+CC de l'Est de la Somme	9	0	18	-18	-0.666666666666667
+CC de la Haute Somme (Combles - Péronne - Roisel)	43	2	6	-4	-0.0851063829787234
+CC du Val de Somme	6	0	0	0	0
+CA de l'Albigeois (C2A)	222	23	53	-30	-0.119047619047619
+CA Gaillac-Graulhet	638	33	71	-38	-0.0562130177514792
+CC Carmausin-Ségala	131	34	56	-22	-0.143790849673203
+CC des Monts d'Alban et du Villefranchois	298	16	29	-13	-0.0418006430868167
+CC Tarn-Agout	134	16	56	-40	-0.229885057471264
+CC Val 81	77	28	19	9	0.132352941176471
+CC Centre Tarn	65	4	11	-7	-0.0972222222222222
+CA de Castres Mazamet	124	0	47	-47	-0.274853801169591
+CC Sidobre Vals et Plateaux	309	7	74	-67	-0.178191489361702
+CC du Cordais et du Causse (4 C)	190	12	47	-35	-0.155555555555556
+CC Thoré Montagne Noire	62	15	20	-5	-0.0746268656716418
+CC du Lautrécois et du Pays d'Agout	148	38	51	-13	-0.0807453416149069
+CC du Sor et de l'Agout	214	24	36	-12	-0.0530973451327433
+CC Terres des Confluences	104	8	0	8	0.0833333333333333
+CC Grand Sud Tarn et Garonne	80	10	0	10	0.142857142857143
+CC Coteaux et Plaines du Pays Lafrançaisain	112	6	0	6	0.0566037735849056
+CC de la Lomagne Tarn-et-Garonnaise	91	14	0	14	0.181818181818182
+CC Quercy Vert-Aveyron	177	10	0	10	0.0598802395209581
+CC du Pays de Serres en Quercy	143	10	0	10	0.0751879699248121
+CC du Quercy Rouergue et des Gorges de l'Aveyron	240	76	6	70	0.411764705882353
+CC du Quercy Caussadais	105	8	0	8	0.0824742268041236
+CA Grand Montauban	54	8	8	0	0
+CA Dracénie Provence Verdon Agglomération	244	14	57	-43	-0.149825783972125
+CC Lacs et Gorges du Verdon	122	13	12	1	0.00826446280991733
+CC Provence Verdon	85	0	79	-79	-0.481707317073171
+CC du Pays de Fayence	104	0	6	-6	-0.0545454545454546
+CA Sud Sainte Baume	75	0	22	-22	-0.22680412371134
+CC de la Vallée du Gapeau	8	0	18	-18	-0.692307692307692
+CC Méditerranée Porte des Maures	49	0	11	-11	-0.183333333333333
+CA de la Provence Verte	121	2	4	-2	-0.016260162601626
+CC Cœur du Var	96	0	0	0	0
+Métropole Toulon-Provence-Méditerranée	207	0	34	-34	-0.141078838174274
+CC du Golfe de Saint-Tropez	116	0	32	-32	-0.216216216216216
+CA Estérel Côte d'Azur Agglomération	128	2	12	-10	-0.072463768115942
+CA des Sorgues du Comtat	174	26	26	0	0
+CC Territoriale Sud-Luberon	109	8	15	-7	-0.0603448275862069
+CA Ventoux-Comtat-Venaissin (COVE)	972	90	104	-14	-0.0141987829614605
+CC Ventoux Sud	153	13	8	5	0.0337837837837838
+CC Rhône Lez Provence	27	0	6	-6	-0.181818181818182
+CA Luberon Monts de Vaucluse	247	11	24	-13	-0.05
+CC du Pays Réuni d'Orange	36	0	6	-6	-0.142857142857143
+CC Aygues-Ouvèze en Provence (CCAOP)	49	0	29	-29	-0.371794871794872
+CC du Pays des Sorgues et des Monts de Vaucluse	118	16	17	-1	-0.00840336134453779
+CC Sud Vendée Littoral	174	0	4	-4	-0.0224719101123596
+CC de Vie et Boulogne	80	0	4	-4	-0.0476190476190477
+CC Vendée Grand Littoral	317	40	27	13	0.0427631578947369
+CC Pays de Fontenay-Vendée	127	7	8	-1	-0.0078125
+CC de l'Île de Noirmoutier	65	29	48	-19	-0.226190476190476
+CC Océan Marais de Monts	145	13	14	-1	-0.00684931506849318
+CC Challans-Gois Communauté	271	9	16	-7	-0.0251798561151079
+CC Vendée. Sèvre. Autise	154	26	20	6	0.0405405405405406
+CA Terres de Montaigu	30	0	12	-12	-0.285714285714286
+CC du Pays de Pouzauges	112	0	25	-25	-0.182481751824818
+CC Pays de Chantonnay	47	0	12	-12	-0.203389830508475
+CA du Pays de Saint-Gilles-Croix-de-Vie	148	14	15	-1	-0.00671140939597314
+CC du Pays de la Châtaigneraie	139	66	0	66	0.904109589041096
+CC du Pays des Achards	73	0	16	-16	-0.179775280898876
+CC du Pays de Saint-Fulgent - Les Essarts	13	0	25	-25	-0.657894736842105
+CA La Roche-sur-Yon Agglomération	95	0	2	-2	-0.020618556701031
+CC du Pays des Herbiers	90	8	0	8	0.0975609756097562
+CC du Pays de Mortagne	138	6	17	-11	-0.0738255033557047
+CA Les Sables d'Olonne Agglomération	172	16	9	7	0.0424242424242425
+CC Vienne et Gartempe	357	18	69	-51	-0.125
+CC du Civraisien en Poitou	380	35	38	-3	-0.0078328981723238
+CA Grand Châtellerault	237	23	26	-3	-0.0125
+CC des Vallées du Clain	81	0	6	-6	-0.0689655172413793
+CC du Haut-Poitou	173	4	0	4	0.0236686390532543
+CU du Grand Poitiers	221	0	35	-35	-0.13671875
+CC du Pays Loudunais	129	0	20	-20	-0.134228187919463
+CC Élan Limousin Avenir Nature	381	25	5	20	0.0554016620498614
+CC Haut Limousin en Marche	425	9	7	2	0.00472813238770686
+CC des Portes de Vassivière	249	8	6	2	0.00809716599190291
+CC du Val de Vienne	75	0	9	-9	-0.107142857142857
+CU Limoges Métropole	265	19	38	-19	-0.0669014084507042
+CC Pays de Nexon Monts de Chalus	121	9	4	5	0.0431034482758621
+CC Porte Océane du Limousin	199	5	0	5	0.0257731958762886
+CC du Pays de Saint-Yrieix	56	24	0	24	0.75
+CC Ouest Limousin	281	6	44	-38	-0.119122257053291
+CC de Noblat	152	0	18	-18	-0.105882352941176
+CC Briance Sud Haute Vienne	190	19	13	6	0.0326086956521738
+CC Briance-Combade	79	10	0	10	0.144927536231884
+CC Gartempe Saint-Pardoux	93	0	4	-4	-0.0412371134020618
+CC Terre d'Eau	50	2	20	-18	-0.264705882352941
+CC de l'Ouest Vosgien	35	0	0	0	0
+CA d'Épinal	205	22	52	-30	-0.127659574468085
+CC des Hautes Vosges	917	57	202	-145	-0.13653483992467
+CC Bruyères-Vallons des Vosges	87	11	40	-29	-0.25
+CC de Mirecourt Dompaire	44	0	28	-28	-0.388888888888889
+CC des Vosges côté Sud Ouest	60	6	0	6	0.111111111111111
+CC Gérardmer Hautes Vosges	775	90	109	-19	-0.0239294710327456
+CC de la Porte des Vosges Méridionales	195	12	16	-4	-0.0201005025125628
+CC de la Région de Rambervillers	30	0	0	0	0
+CC des Ballons des Hautes-Vosges	209	12	32	-20	-0.0873362445414847
+CC de l'Aillantais en Bourgogne	28	0	8	-8	-0.222222222222222
+CC Le Tonnerrois en Bourgogne	122	0	24	-24	-0.164383561643836
+CC du Serein	158	4	0	4	0.025974025974026
+CC Avallon. Vézelay. Morvan	262	0	22	-22	-0.0774647887323944
+CA de l'Auxerrois	140	10	13	-3	-0.0209790209790209
+CC Chablis Villages et Terroirs	76	0	22	-22	-0.224489795918367
+CA du Grand Sénonais	69	0	0	0	0
+CC de la Vanne et du Pays d'Othe	16	0	5	-5	-0.238095238095238
+CC du Gâtinais en Bourgogne	21	0	0	0	0
+CC Serein et Armance	40	4	0	4	0.111111111111111
+CC du Jovinien	44	6	0	6	0.157894736842105
+CC Yonne Nord	2	0	0	0	0
+CC des Vosges du Sud	95	0	6	-6	-0.0594059405940595
+CA Grand Belfort	75	0	9	-9	-0.107142857142857
+CC du Sud Territoire	48	0	0	0	0
+CA Étampois Sud-Essonne	123	12	7	5	0.0423728813559323
+CA Cœur d'Essonne Agglomération	14	8	0	8	1.33333333333333
+Métropole du Grand Paris	19	0	0	0	0
+CC Entre Juine et Renarde (CCEJR)	118	16	22	-6	-0.0483870967741935
+CA Communauté Paris-Saclay	31	14	13	1	0.0333333333333334
+CC du Pays de Limours (CCPL)	19	0	0	0	0
+CA Val d'Yerres Val de Seine	11	0	0	0	0
+CC Le Dourdannais en Hurepoix (CCDH)	89	0	5	-5	-0.0531914893617021
+CC du Val d'Essonne (CCVE)	50	0	0	0	0
+CC du Vexin-Val de Seine	222	20	0	20	0.0990099009900991
+CC Sausseron Impressionnistes	95	2	0	2	0.021505376344086
+CC du Haut Val d'Oise	15	0	0	0	0
+CA de Cergy-Pontoise	57	0	0	0	0
+CC Vexin Centre	137	4	0	4	0.0300751879699248
+CA Plaine Vallée	13	0	0	0	0
+CA Val Parisis	7	0	0	0	0
+CC de la Vallée de l'Oise et des Trois Forêts	9	0	3	-3	-0.25
+CC Carnelle Pays-de-France	96	14	4	10	0.116279069767442
+CA Cap Excellence	32	4	0	4	0.142857142857143
+CA du Nord Grande Terre	61	0	12	-12	-0.164383561643836
+CA Grand Sud Caraïbe	146	30	6	24	0.19672131147541
+CC de Marie-Galante	14	0	12	-12	-0.461538461538462
+CA du Nord Basse-Terre	186	0	4	-4	-0.0210526315789473
+CA La Riviera du Levant	356	48	22	26	0.0787878787878789
+CA de l'Espace Sud de la Martinique	169	0	38	-38	-0.183574879227053
+CA du Pays Nord Martinique	53	0	20	-20	-0.273972602739726
+CA du Centre de la Martinique	44	0	9	-9	-0.169811320754717
+CA CIVIS (Communauté Intercommunale des VIlles Solidaires)	215	0	68	-68	-0.240282685512368
+CA Intercommunale de la Réunion Est (CIREST)	136	8	33	-25	-0.15527950310559
+CA Territoire de la Côte Ouest (TCO)	138	0	61	-61	-0.306532663316583
+CA Intercommunale du Nord de la Réunion (CINOR)	38	0	0	0	0
+CA du Sud	163	14	48	-34	-0.17258883248731
+CA du Pays Ajaccien	259	50	45	5	0.0196850393700787
+CC de la Pieve de l'Ornano et du Taravo	279	38	34	4	0.0145454545454546
+CC de l'Alta Rocca	389	46	56	-10	-0.025062656641604
+CC du Sartenais Valinco Taravo	428	20	30	-10	-0.0228310502283106
+CC Spelunca-Liamone	373	23	78	-55	-0.128504672897196
+CC Celavu-Prunelli	187	20	34	-14	-0.0696517412935324
+CC du Sud Corse	676	48	123	-75	-0.0998668442077231
+CC Pasquale Paoli	97	4	16	-12	-0.110091743119266
+CC de Calvi Balagne	407	31	79	-48	-0.105494505494505
+CC Nebbiu - Conca d'Oro	135	5	22	-17	-0.111842105263158
+CC du Cap Corse	177	30	32	-2	-0.0111731843575419
+CA de Bastia	24	11	12	-1	-0.04
+CC de l'Île-Rousse - Balagne	385	14	42	-28	-0.0677966101694916
+CC de Marana-Golo	76	8	17	-9	-0.105882352941176
+CC de la Castagniccia-Casinca	147	6	35	-29	-0.164772727272727
+CC du Centre Corse	50	4	0	4	0.0869565217391304
+CC de la Costa Verde	84	10	18	-8	-0.0869565217391305
+CC de l'Oriente	18	8	0	8	0.8
+CC de Fium'orbu Castellu	221	9	10	-1	-0.00450450450450446
