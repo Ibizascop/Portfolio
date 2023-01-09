@@ -1,0 +1,250 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+#Load libraries
+library("readxl")
+library(factoextra)
+library(caret)
+library(lime) #Explain multiclass random forest
+library(rpart)
+library(cluster)
+library(rpart.plot)
+library(psych)
+options(ztable.type="html")
+library("utiml") #Multilabel classification
+```
+Intro) Dans les jeux Pokemon, les pokémons sont regroupés dans ce que l'on appelle des "groupes d'oeufs". Ces groupes déterminent quels pokemons peuvent se reproduire entre eux et sont par conséquent similaire à la notion de "genre animal". Par exemple, le lion et le tigre font parti du même genre et peuve ainsi donner naissance à des hybrides.
+
+Dans ce notebook, on essaye de construire un modèle de prédiction d'appartenance ou non des pokémons aux différents groupes d'oeufs sur la base de plusieurs variables. 
+
+Ces variables sont notamment : les types des pokemons, leurs caractéristiques physiques (taille, poids, couleur, physionomie) ainsi que des variables extraites du clustering des signals audios des cris des pokemons (voir notebook SBD CLUSTERING.Rmd). En effet, étant donné que les cris sont caractéristiques des espèces, il semble logique de penser que ces données puissent aider à identifier le groupe d'oeuf.
+
+```{r}
+#Read Excel file with data
+data <- read_excel("data_clean.xlsx")
+data <- as.data.frame(data)
+```
+
+1) On visualise les correlations entre les donnes, notamment pour avoir un apercu
+des variables jouant sur l'appartenance ou non à un groupe d'oeuf pour un pokémon donné.
+```{r}
+data_2 = data[-c(1:3)]
+
+code = function(x) {
+  if (x > 0 ) 
+    return (1)
+  else 
+    return (0)
+}
+
+Correlations = function(data, col) {
+  #Corrélations et choix du col 
+  corr = as.data.frame(cor(data))
+  col_choisit = corr[c(col)]
+  
+  #Trier
+  col_choisit_sort =  col_choisit[order(-col_choisit), ,drop = FALSE]
+  
+  #Récupérer top 10 et bottom 10
+  top_10 =  col_choisit_sort[2:11, ,drop = FALSE]
+  bottom_10 =  col_choisit_sort[(nrow(col_choisit_sort)-9):nrow(col_choisit_sort), ,drop = FALSE]
+  
+  #Assembler les 2
+  most_correlated = rbind(top_10,bottom_10)
+  
+  #Encoder corrélations positives négatives
+  most_correlated$fill = apply(most_correlated[,c(col),drop = F],1,code)
+  most_correlated$fill = as.factor(most_correlated$fill)
+
+  #Barchart
+  plot_correlations <- ggplot(most_correlated, aes(x = reorder(row.names(most_correlated), most_correlated[,c(col)]), y =  most_correlated[,c(col)] 
+                                                   , fill = fill))+ geom_bar(stat = "identity", width = 0.7)+ 
+    scale_fill_manual(values = c("1" = "green", "0" = "red"),guide = FALSE) +
+    ylab(paste("Correlations avec",col)) + xlab("cols") +
+    geom_text(aes(label=round(most_correlated[,c(col)],2)), vjust=0.4)
+  return(plot_correlations+ coord_flip())
+
+  
+}
+```
+
+Example sur les variables ayant le plus d'impact sur le fait qu'un pokemon soit dans le groupe "Végétal". Le type ayant une valeur élevé ressort, étant donné que le type = "Plante" soit encodé sur la valeur 11 sur 18. Les pokémons du groupe "Végétal" font également souvent parti des groupes "Féériques et Monstrueux". 
+
+A l'inverse, les cris des pokémons du groupe végétal ont généralement une amplitude maximum faible.
+```{r}
+Correlations(data_2,"Végétal")
+```
+2) Histogrammes de quelques variables
+
+```{r}
+hist(data$poids_kg)
+hist(data$taille_m)
+hist(data$couleur_encode)
+hist(data$corps_encode)
+hist(data$amplitude__length2)
+hist(data$amplitude__maximum)
+hist(data$amplitude__minimum)
+hist(data$amplitude__abs_energy)
+hist(data$groupe_oeuf_1_encode)
+```
+3) Boxplots de quelques variables par rapport au la variable groupe_oeuf_1
+
+```{r}
+boxplot(split(data$poids_kg,data$groupe_oeuf_1_encode), main="poids_kg")
+boxplot(split(data$taille_m,data$groupe_oeuf_1_encode), main="taille_m")
+boxplot(split(data$couleur_encode,data$groupe_oeuf_1_encode), main="couleur_encode")
+boxplot(split(data$corps_encode,data$groupe_oeuf_1_encode), main="corps_encode")
+boxplot(split(data$amplitude__length2,data$groupe_oeuf_1_encode), main="amplitude__length2")
+boxplot(split(data$amplitude__maximum,data$groupe_oeuf_1_encode), main="amplitude__maximum")
+boxplot(split(data$amplitude__minimum,data$groupe_oeuf_1_encode), main="amplitude__minimum")
+boxplot(split(data$amplitude__abs_energy,data$groupe_oeuf_1_encode), main="amplitude__abs_energy")
+```
+
+4) Multiclass classification en utilisant un simple abre puis un random forest sur la variable groupe_oeuf_1_encode
+
+4-1) Arbre unique avec Bootstrap
+```{r}
+précision_boot = matrix(0,nrow=100,ncol=1)
+précision_max = 0
+data_single_forecast = data[-c(28:41)] #Enlever colonnes avec tous les groupes d'oeufs
+data_single_forecast = data_single_forecast[-c(1:2)] #Enlever colonnes avec url et nom
+data_single_forecast$groupe_oeuf_1_encode = factor(data_single_forecast$groupe_oeuf_1_encode,     levels = c(1:14))
+
+for (i in 1:100) {
+  division_boot = sample(nrow(data_single_forecast), 0.6*nrow(data), replace = FALSE)
+  TrainSet_boot = data_single_forecast[division_boot,]
+  ValidSet_boot = data_single_forecast[-division_boot,]
+  arbre_boot <- rpart(data_single_forecast$groupe_oeuf_1_encode~ ., data=data_single_forecast,subset = division_boot, control = rpart.control("minsplit" = 1), xval = 30)
+  tab_boot = table(predict(arbre_boot, data_single_forecast[-division_boot,], type="class"), ValidSet_boot$groupe_oeuf_1_encode) 
+  précision_boot[i] = sum(diag(tab_boot))/sum(tab_boot)
+  
+  if (précision_boot[i] > précision_max) {
+    précision_max = précision_boot[i]
+    arbre_final = arbre_boot
+    check = i 
+  }
+}
+```
+
+4-1-1) Récupérer le meilleure arbre
+```{r}
+tab_final = table(predict(arbre_final, data_single_forecast[-division_boot,], type="class"), ValidSet_boot$groupe_oeuf_1_encode) 
+tab_final
+sum(diag(tab_final))/sum(tab_final)
+rpart.plot(arbre_final,tweak=1.6,extra=101)
+```
+
+Le résultat dest de 60% de précision, ce qui est décent  sans être exceptionnel
+
+4-1-2) Moyenne et variance du bootstrap
+```{r}
+hist(précision_boot,xlab="Précision des arbres",main=paste("Précision moyenne =",
+                                                           round(mean(précision_boot),4),",",
+                                                         "Variance",round(var(précision_boot),4)))
+
+```
+Cependant, la précision moyenne est seulement de 50%
+
+4-2-1) Creation d'un RANDOM FOREST
+```{r}
+division_rf = sample(nrow(data_single_forecast), 0.7*nrow(data_single_forecast), replace = FALSE)
+TrainSet_rf = data_single_forecast[division_rf,]
+ValidSet_rf = data_single_forecast[-division_rf,]
+```
+
+4-2-2) Optimisation des paramètres avec grid search
+```{r}
+tgrid <- expand.grid(
+  .mtry = 2:9,
+  .splitrule = "gini",
+  .min.node.size = 2:10)
+```
+
+4-2-3) Création du modèle
+```{r}
+rf = train(groupe_oeuf_1_encode  ~ ., data = TrainSet_rf,
+           method = "ranger",
+           trControl = trainControl(method="cv", number = 10, verboseIter = T, classProbs = F),
+           tuneGrid = tgrid,
+           num.trees = 100,
+           importance = "impurity")
+```
+
+4-2-4) Test du modèle sur le set d'entrainement
+```{r}
+predTrain <- predict(rf, TrainSet_rf)
+mean(predTrain == TrainSet_rf$groupe_oeuf_1_encode)    
+table(predTrain, TrainSet_rf$groupe_oeuf_1_encode)
+```
+4-2-5) Essai du modèle sur jeu de Test
+```{r}
+predValid <- predict(rf, ValidSet_rf)
+mean(predValid == ValidSet_rf$groupe_oeuf_1_encode)                    
+table(predValid,ValidSet_rf$groupe_oeuf_1_encode)
+```
+On arrive à 60% de précision, ce qui est similaire à l'arbre simple
+
+4-2-5) Essai du modèle sur jeu de Test
+
+5) Multilabel classification sur le groupe d'oeufs d'appartenance
+
+5-1) Chargement et mise en forme des données pour constuire un modèle multilabel. On utilise le paramètre cc pour "CLASSIFIER CHAINS", afin que les labels prédits soit utilisés au fur et à mesure par le modèle pour prédire les labels restants.
+```{r}
+#Create Train/Test
+ds = data[-c(1:3)]
+ds = mldr_from_dataframe(ds, labelIndices = c(25:38))
+ds <- create_holdout_partition(ds, c(train=0.65, test=0.35), "iterative")
+#Create  Classifier Chains multi-label method with the base algorithm Random Forest
+brmodel <- cc(ds$train, "RF")
+prediction <- predict(brmodel, ds$test)
+```
+
+5-2) Résultats sur set de test
+```{r}
+head(as.bipartition(prediction))
+```
+5-3) Résultats en probabilité pour chaque label sur set de test
+```{r}
+head(as.probability(prediction))
+```
+5-4) Classement des labels les plus probables pour chaque instance de test
+```{r}
+head(as.ranking(prediction))
+```
+5-5) Garder seulement les 2 labels les plus probables
+```{r}
+newpred <- rcut_threshold(prediction, 2)
+head(newpred)
+```
+5-6) Comparaison sans/avec seuil à 2 labels
+```{r}
+result <- multilabel_evaluate(ds$tes, prediction, "bipartition")
+thresres <- multilabel_evaluate(ds$tes, newpred, "bipartition")
+
+round(cbind(Default=result, RCUT=thresres), 3)
+```
+Imposer un seuil ne samble pas particulièrement améliorer les performances
+
+5-4) Resultats generaux
+```{r}
+result <- multilabel_evaluate(ds$tes, prediction, "bipartition", labels=TRUE)
+result$labels
+```
+
+5-5) Evaluer model avec une matrice de confusion
+```{r}
+# Build a confusion matrix
+confmat <- multilabel_confusion_matrix(ds$test, prediction)
+result <- multilabel_evaluate(confmat)
+print(confmat)
+```
+
+5-6) Synthetiser les resultats
+
+Certains labels ont bien été prédits , aussi bien sur l'affirmation que la égation, comme le groupe "Aérien" : 19 true positive, 2 faux positifs et 3 faux negatifs. Cela est probablement du aux caractéristiques spécifiques de ce groupe : Pokemon généralement de type Vol, possèdant des ailes et avec des cris d'oiseaux.
+
+A l'inverse, le groupe Terreste, l'un des plus représenté n'a pas correctement été prédit. L'une des raisons et piste d'amélioration pourrait être lié à la prise en compte de l'inclusion, exclusion mutuelle de certains groupes d'oeufs. Par exemple, Il n'y a aucun pokémon appartement aux deux groupes "TERRESTRE" et "INSECTOIDE" en même temps. Il faudrait explorer des méthodes permettant de renforcer la prise en compte de ce facteur par le modèle.
