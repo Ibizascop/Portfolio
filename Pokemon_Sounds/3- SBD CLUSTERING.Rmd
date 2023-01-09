@@ -1,0 +1,116 @@
+---
+title: "Clustering Notebook"
+output: html_notebook
+---
+
+On charge d'abord toute les librairies 
+```{r}
+library(dplyr,quietly = TRUE)
+library(tidyverse,quietly = TRUE)
+library(viridis)
+library(ggplot2,quietly = TRUE)
+library(reshape2,quietly = TRUE)
+library(viridis,quietly = TRUE)
+library(data.table,quietly = TRUE)
+library(xtable,quietly = TRUE)
+library(knitr)
+library(markdown)
+library(stringr)
+library(cowplot)
+library(patchwork)
+library(pacman)
+library("rio")
+library(progress)
+p_load(dtwclust)
+p_load(heatmaply)
+p_load(rio)
+p_load(dbscan)
+p_load(cluster)
+p_load(ggpubr)
+p_load(factoextra)
+```
+Intro) Dans les jeux Pokemon, les pokémons sont regroupés dans ce que l'on appelle des "groupes d'oeufs". Ces groupes déterminent quels pokemons peuvent se reproduire entre eux et sont par conséquent similaire à la notion de "genre animal". Par exemple, le lion et le tigre font parti du même genre et peuve ainsi donner naissance à des hybrides.
+
+Dans ce notebook, on essaye de calculer une métrique de distance entre les signaux audios des cris des différents pokemons afin de les clusteriser.
+
+La métrique choisie est la SHAPE BASED DISTANCE (SBD : https://rdrr.io/cran/dtwclust/man/SBD.html)
+car elle permet de travailler avec des séries temporelles de longueur différentes. 
+Une fois la matrice de distance calculée, on réalise un clustering hiérarchique (CAH) pour estimer le nombre de clusters opportuns. Ensuite, on réalise un PAM pour créer les clusters.
+
+
+1)On télécharge les données puis on on construit la matrice de dissimilarité en utilisant la métrique SBD 
+
+```{r}
+nb_files <- 1006  #put number of element (equivalent to os.list.dir in python)
+matrix <- matrix(0L, nrow = nb_files, ncol = nb_files)
+mem <- vector(mode = "list", length = nb_files)
+csv_files <- list.files("./CSV")
+
+#Stocker les series en amont
+for (i in 1:nb_files) {
+  serie_temporelle <- import(paste("./CSV/",csv_files[i],sep=""))
+  mem[[i]] <- (serie_temporelle$amplitude)
+}
+```
+
+2)On calcule les distances 2 à 2.
+```{r}
+pb <- progress_bar$new(total = nrow(matrix))
+for (i in 1:nb_files) {
+    pb$tick()
+    for (j in i:nb_files) {
+        if (i == j){
+            matrix[i, j] = 0
+        }
+        else {
+            if (is.null(mem[[j]]) == F){
+                matrix[i,j] = SBD(x=mem[[i]],y=mem[[j]],znorm=F,error.check = T)$dist
+                matrix[j,i] = matrix[i,j]
+            }
+        }
+    }
+}
+```
+3) On transforme la matrice en matrice de dissimilarité
+```{r}
+#old_matrix = matrix
+#save(matrix,file="similarity_matrix.RData") 
+matrix <- as.dist(matrix) 
+
+#load( file="similarity_matrix.RData" )
+
+fviz_dist(matrix,gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+```
+
+4) On applique le clustering hierarchique avec la méthode souhaité puis on trace le résultats
+
+```{r}
+hclu=hclust(matrix, method = "average", members = NULL)
+plot(hclu,labels = FALSE)
+
+```
+5) On affiche la dissimilarité en fonction du nombre de classe
+
+Il semblerait qu'à partir de 0 classes la dissimilarité ne diminue plus aussi vite.E tant donné qu'il ya 15 groupes d'oeufs et 18 types, on va donc choisir 18 pour le nombre de clusters
+```{r}
+h <- sort(hclu$height, decreasing = TRUE)
+plot(h[1:as.integer(nb_files/10)], type = "s", xlab = "Nombre de classes", ylab = "Diss")
+```
+6) on coupe le dendrogram à la hauteur souhaité pour avoir le bon nombre de classes
+
+```{r}
+nb_clusters = 18
+clusters_h <- cutree(hclu,nb_clusters)
+```
+
+7) On test l'algorithme PAM pour le cluster 
+```{r}
+clusters <- pam(matrix, nb_clusters,cluster.only = T)
+
+```
+
+8) On exporte les resultats des cluster
+```{r}
+df = data.frame(csv_files,clusters)
+write.csv(df, file = "classes.csv", row.names=FALSE)
+```
