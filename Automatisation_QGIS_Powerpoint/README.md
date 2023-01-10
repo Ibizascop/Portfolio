@@ -7,7 +7,7 @@ Les principaux outils utilisés sont les suivants :
     - Pandas pour le traitement des données
     - Selenium pour le crawl de données 
     - PyGIS pour automatiser la création des cartes
-    - Pptxpour automatiser la création des slides Powerpoint
+    - Pptx pour automatiser la création des slides Powerpoint
 - QGIS
 
 Le but de ce projet est de crawler les données sur les hôtels de chaines listés 
