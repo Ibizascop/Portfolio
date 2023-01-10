@@ -1,6 +1,7 @@
 # Automatisation_QGIS_Powerpoint
 Une presentation d'un projet de crawl de données, d'automatisation QGIS et Powerpoint
-que j'ai réalisé via Python. 
+que j'ai réalisé via Python. Pour avoir un apercu du résultat final, vous trouverez 2
+examples de PDF dans le dossier EXTRAITS_PDFS_FINAUX
 
 Les principaux outils utilisés sont les suivants :
 - Python avec notamment les packages suivant :
