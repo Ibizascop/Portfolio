@@ -23,8 +23,9 @@ produire des cartes QGIS sur l'offre des groupes/chaines à travers le monde
 - Dossier 2- QGIS
 
 On termine ensuite par réaliser une pipeline de traitement de données pour 
-produire automatiquement des slides powerpoints et des pdf synthétisant 
-des classements de groupes/chaines par pays, par segments hôteliers
+produire automatiquement des slides powerpoints à partir d'un template
+et des pdf synthétisant des classements de groupes/chaines par pays et
+par segments hôteliers
 - Dossier 3- PREPARATION_SLIDES
 
 
