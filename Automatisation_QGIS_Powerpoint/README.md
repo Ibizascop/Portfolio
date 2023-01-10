@@ -1,13 +1,14 @@
 # Automatisation_QGIS_Powerpoint
 Une presentation d'un projet de crawl de données, d'automatisation QGIS et Powerpoint
-que j'ai réalisé via Python. 
+que j'ai réalisé via Python. Pour avoir un apercu du résultat final, vous trouverez 2
+examples de PDF dans le dossier EXTRAITS_PDFS_FINAUX
 
 Les principaux outils utilisés sont les suivants :
 - Python avec notamment les packages suivant :
     - Pandas pour le traitement des données
     - Selenium pour le crawl de données 
     - PyGIS pour automatiser la création des cartes
-    - Pptxpour automatiser la création des slides Powerpoint
+    - Pptx pour automatiser la création des slides Powerpoint
 - QGIS
 
 Le but de ce projet est de crawler les données sur les hôtels de chaines listés 
@@ -22,8 +23,9 @@ produire des cartes QGIS sur l'offre des groupes/chaines à travers le monde
 - Dossier 2- QGIS
 
 On termine ensuite par réaliser une pipeline de traitement de données pour 
-produire automatiquement des slides powerpoints et des pdf synthétisant 
-des classements de groupes/chaines par pays, par segments hôteliers
+produire automatiquement des slides powerpoints à partir d'un template
+et des pdf synthétisant des classements de groupes/chaines par pays et
+par segments hôteliers
 - Dossier 3- PREPARATION_SLIDES
 
 
