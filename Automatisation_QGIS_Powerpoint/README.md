@@ -11,7 +11,8 @@ Les principaux outils utilisés sont les suivants :
 - QGIS
 
 Le but de ce projet est de crawler les données sur les hôtels de chaines listés 
-sur le site CTRIP ("https://hotels.ctrip.com/brand/"). Pour estimer les nombres 
+sur le site CTRIP ("https://hotels.ctrip.com/brand/"). Les données de plus de 133k
+hotels ont été récupérées. Pour estimer les nombres 
 de chambres globaux (chaines + indépendants) des différents pays, des recherches 
 sur les offices statistiques ont été réalisées
 - Dossier 1- CRAWL
