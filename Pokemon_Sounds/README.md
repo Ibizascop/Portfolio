@@ -4,16 +4,16 @@ Dans les jeux Pokemon, les pokémons sont regroupés dans ce que l'on appelle de
 Le but de ce projet est d'essayer de construire un modèle de prediction de l'appartenance ou non d'un pokémon aux différents groupes d'oeufs (CLASSIFICATION MULTILABEL)
 
 Les principaux outils et méthodes utilisés sont les suivants :
-    - Python avec notamment les packages suivant :
-        - Librosa pour le traitement des données audio
-        - Tsfresh pour l'extraction de features de séries temporelles
-        - Selenium pour le Crawl de données
-        - Numpy pour le traitement des series temporelles
-    - R avec notamment les librairis suivantes :
-        - dtwclust pour la classification non supervisée de séries temporelles
-        - caret pour la création d'un modèle RandomForest
-        - utiml pour la création d'un modèle RandomForest Multilabel : Prédire 
-        plus d'un label à la fois
+- Python avec notamment les packages suivant :
+    - Librosa pour le traitement des données audio
+    - Tsfresh pour l'extraction de features de séries temporelles
+    - Selenium pour le Crawl de données
+    - Numpy pour le traitement des series temporelles
+- R avec notamment les librairis suivantes :
+    - dtwclust pour la classification non supervisée de séries temporelles
+    - caret pour la création d'un modèle RandomForest
+    - utiml pour la création d'un modèle RandomForest Multilabel : Prédire 
+    plus d'un label à la fois
 
 Déroulement :
 
