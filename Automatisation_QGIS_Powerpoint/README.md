@@ -13,7 +13,7 @@ Les principaux outils utilisés sont les suivants :
 
 Le but de ce projet est de crawler les données sur les hôtels de chaines listés 
 sur le site CTRIP ("https://hotels.ctrip.com/brand/"). Les données de plus de 133k
-hotels ont été récupérées. Pour estimer les nombres 
+hotels, 2k groupes et 3k chaines d'hotels ont été récupérées. Pour estimer les nombres 
 de chambres globaux (chaines + indépendants) des différents pays, des recherches 
 sur les offices statistiques ont été réalisées
 - Dossier 1- CRAWL
