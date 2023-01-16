@@ -19,4 +19,4 @@ l'évolution entre 2021 et 2022 de la capacité en gites par EPCI
 On crée également des cartes montrant année par année la capacité en gites des 
 nouveaux gites labellisés par communes. Les cartes sont en suites 
 combinées en 1 seul gif
-- Dossier 3- GIF MAP
+- Dossier 3- GIF MAP![gites](https://user-images.githubusercontent.com/72470212/212664612-ea55e69d-a929-452a-aa31-8f4e6d7b5e16.gif)
