@@ -1,3 +1,4 @@
+[Extrait_MARRIOTT_INTERNATIONAL.pdf](https://github.com/Ibizascop/Portfolio/files/10425178/Extrait_MARRIOTT_INTERNATIONAL.pdf)
 # Automatisation_QGIS_Powerpoint
 Une presentation d'un projet de crawl de données, d'automatisation QGIS et Powerpoint
 que j'ai réalisé via Python. Pour avoir un apercu du résultat final, vous trouverez 2
