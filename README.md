@@ -1,39 +1,19 @@
-# Automatisation_QGIS_Powerpoint
-Une presentation d'un projet de crawl de données, d'automatisation QGIS et Powerpoint
-que j'ai réalisé via Python. Pour avoir un apercu du résultat final, vous trouverez 2
-examples de PDF dans le dossier EXTRAITS_PDFS_FINAUX
+# Portfolio
+Une selection de projets que j'ai réalisé.
 
-Les principaux outils utilisés sont les suivants :
-- Python avec notamment les packages suivant :
-    - Pandas pour le traitement des données
-    - Selenium pour le crawl de données 
-    - PyGIS pour automatiser la création des cartes
-    - Pptx pour automatiser la création des slides Powerpoint
-- QGIS
+Les différents projets sont les suivants
+- Automatisation_QGIS_Poerpoint :
+    - Projet montrant une pipeline automatique de traitrement de la collecte de données
+    jusqu'à l'exploitation de ces dernières : cartographie et powerpoints
+    
+- Gites_de_France : 
+    - Projet de cartographie sur le marché des gites de France
 
-Le but de ce projet est de crawler les données sur les hôtels de chaines listés 
-sur le site CTRIP ("https://hotels.ctrip.com/brand/"). Les données de plus de 133k
-hotels, 2k groupes et 3k chaines d'hotels ont été récupérées. Pour estimer les nombres 
-de chambres globaux (chaines + indépendants) des différents pays, des recherches 
-sur les offices statistiques ont été réalisées
-- Dossier 1- CRAWL
+- Pokemon_Sounds : 
+    - Projet de clustering et classification supervisée de données audio et séries temporelles
 
-Une fois ces données récupéres, on les consolide par chaines groupes et pays pour
-produire des cartes QGIS sur l'offre des groupes/chaines à travers le monde
-- Dossier 2- QGIS
-
-On termine ensuite par réaliser une pipeline de traitement de données pour 
-produire automatiquement des slides powerpoints à partir d'un template
-et des pdf synthétisant des classements de groupes/chaines par pays et
-par segments hôteliers
-- Dossier 3- PREPARATION_SLIDES
-
-
-
-Les dossiers restant sont des annexes :
-- Dossier EXTRAITS_DATA : Extraits des données CTRIP consolidées et des 
-données globales pour quelques pays
-
-- Dossier EXTRAITS_PDF_FINAUX : Extraits des pdf finaux pour le groupe
-MARRIOTT INTERNATIONAL et la chaine PEPPERS de ACCOR.
-
+- Restaurants_Tripadvisor : 
+    - Projet de traitement de données, de requetes sur une BDD pour produire des indicateurs
+    sur le marché de la restauration en France.
+    Pour ce projet, un dashboard interactif est disponible sur le lien suivant :
+    https://charts.mongodb.com/charts-project-0-jingm/public/dashboards/63a709e1-b99d-4ea0-8f53-82b42c905aa3
