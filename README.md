@@ -2,10 +2,18 @@
 Une selection de projets que j'ai réalisé.
 
 Les différents projets sont les suivants
-- Automatisation_QGIS_Poerpoint :
+- Automatisation_QGIS_Powerpoint :
     - Projet montrant une pipeline automatique de traitrement de la collecte de données
     jusqu'à l'exploitation de ces dernières : cartographie et powerpoints
+  
+- Google_Custom_search :
+    - Outils developpés pour requeter l'API Google afin d'obtenir des informations
+    sur des hôtels
     
+- Images_Docker :
+    - Code permettant de réaliser des crawls a grande echelle sur Booking.Com via 
+    des containers dockers
+
 - Gites_de_France : 
     - Projet de cartographie sur le marché des gites de France
 
