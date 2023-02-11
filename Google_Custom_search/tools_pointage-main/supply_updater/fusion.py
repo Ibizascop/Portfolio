@@ -10,6 +10,18 @@ import pandas as pd
 import jellyfish
 
 class branding():
+    """
+    Classe permettant d'attribuer le nom d'une chaine d'hôtel à un 
+    hotel (ligne d'un csv) si le nom de la chaine est contenu dans
+    le nom de l'hôtel
+    
+    Arguments:
+        x : String : Nom de l'hôtel
+        x : String : Nom de la chaine
+        
+    Renvoit: Null
+        Permet de flagger les hôtels par enseigne
+    """
     def __init__(self,x,y):
         self.candidates=x
         self.name=y
@@ -19,6 +31,18 @@ class branding():
                 self.brand=z
 
 def flag(s1,s2):
+    """
+    Fonction permettant de verifier la similarité entre
+    le nom originel d l'hôtel et le nom trouvé sur internet pour
+    fusionner les informations
+    
+    Arguments:
+        s1 : String : Nom originel (sur le site de la chaine) de l'hôtel
+        s2 : String : Nom de l'hôtel trouvé sur internet via google
+        
+    Renvoit: Integer ou "NaN"
+        Si la similarité est assez élevée, renvoit 1, 0 sinon
+    """
     try:
         if jellyfish.jaro_winkler_similarity(s1,s2) > 0.7:
             return 1
@@ -28,7 +52,23 @@ def flag(s1,s2):
         return "NaN"
 
 def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_country=''):
-
+    """
+    Fonction permettant de fusionner les données du csv obtenu
+    via crawl du site avec les donnée du csv obtenu via le pointage 
+    automatique avec google pour completer les informations des hôtels manquants.
+    La fusion se fait sur la base du nom de l'hôtel
+    
+    Arguments:
+        filename : String : Nom à donner au fichier de sortie
+        brands : List : Liste de nom de chaines d'hôtels à flagger via le nom des hôtels
+        mode : Integer 0 ou 1 : Si le csv originel ne contient que les noms des hôtels utiliser 1
+        fill_blank : Boolean : A utiliser si on veut remplir automatiquement les données manquantes
+        force_fill : Integer : Nombre de chambres a utiliser pour les hotels ou l'info n'est pas disponible
+        force_country : String : Nom du Pays a utiliser par defaut si la geolocalisation n'a pas fonctionné
+        
+        
+    Renvoit: Fichiers CSV et EXCEL contenant les données fusionnées 
+    """
 
     if mode==0:
         result = glob.glob('*.csv')
