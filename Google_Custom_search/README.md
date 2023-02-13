@@ -11,7 +11,7 @@ Les principaux outils utilisés sont les suivants :
     - Requests et l'API customsearch de Google
     - Json pour le formatage des résultats Google
 
-- Dossier 1- CUSTOMSEARCH_TOOLS-MAIN
+Dossier 1- CUSTOMSEARCH_TOOLS-MAIN
 
 Dans ce dossier on trouve les fichiers :
 - customsearch.py : Script contenant le code pour effectuer une recherche
@@ -22,7 +22,7 @@ Dans ce dossier on trouve les fichiers :
     pays, GPS ...
 
 
-- Dossier 2- TOOLS_POINTAGE-MAIN
+Dossier 2- TOOLS_POINTAGE-MAIN
 
 Dans ce dossier on trouve les dossiers :
 - supply_updater : Dossier contenant les fichiers :
