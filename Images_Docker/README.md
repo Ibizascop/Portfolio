@@ -23,7 +23,7 @@ Dans ce dossier on trouve les fichiers :
 - booking.py : Script contenant le code pour effectuer un crawl des informations
     booking sur la page d'un hôtel
 
-Dossier 2- URLS_BOOKING
+Dossier 3- URLS_BOOKING
 
 Dans ce dossier on trouve les fichiers :
 - booking_urls.py : Script contenant le code pour effectuer un crawl des urls
