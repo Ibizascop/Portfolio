@@ -155,8 +155,8 @@ def scrape_hotel_info(x):
                 except:
                     stars=''
                 try:
-                    capacity_tripadvisor = chrome.find_element(By.XPATH,'//*[@id="ABOUT_TAB"]/div/div[6]')
-                    chambres = capacity_tripadvisor.text
+                    capacity_tripadvisor = chrome.find_elements(By.CSS_SELECTOR,'div[class="IhqAp Ci"]')
+                    chambres = capacity_tripadvisor[-1].text
                 except:
                     chambres=''
                 try:

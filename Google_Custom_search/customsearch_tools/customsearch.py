@@ -42,7 +42,7 @@ class duck_duck_go_search:
         self.tripadvisor=tripadvisor_url
         self.hotels=hotel_url
         self.trip=trip_url
-
+        self.links = links
 
 class custom_search:
     def __init__(self,query):
