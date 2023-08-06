@@ -324,7 +324,7 @@ chaines_urls = [url for url in chaines_urls if url.split("\t")[0] not in done_ur
 def main() :
     with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
        	future_to_url = {executor.submit(loop, url_nom): url_nom for url_nom in chaines_urls}
-       	for future in tqdm(concurrent.futures.as_completed(future_to_url),total=len(future_to_url)):
+        for future in tqdm(concurrent.futures.as_completed(future_to_url),total=len(future_to_url)):
        		url = future_to_url[future]
        		try:
        			data = future.result()
