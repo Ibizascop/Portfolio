@@ -166,7 +166,7 @@ def scrape_hotel_info(x):
                     vname=''
                 try:
                     adrs_tripadvisor = chrome.find_element(By.XPATH,'//*[@id="component_34"]/div/div[1]/div[3]/div[1]/div[2]/span[2]/span')
-                    adrs_tripadvisor.text
+                    adrs = adrs_tripadvisor.text
                 except:
                     adrs=""
                 chrome.quit()
@@ -272,7 +272,7 @@ def scrape_hotel_info(x):
                         rooms = re.search(regex_room,x).group()
                     except:
                         rooms = ""
-                        
+
                     chrome.quit()
                 except Exception as ex:
                     print(x, 'could not be completed','because of',ex)
