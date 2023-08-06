@@ -54,7 +54,7 @@ def pointer(x):
                 with open('completed.txt',"a") as flog:
                     print('%r page is completed' % url,file=flog)
     
-    newname = 'hotels16_fast'+tsx+'.csv'
+    newname = 'hotels16_fast'+str(tsx)+'.csv'
     df_mapping = pd.DataFrame({'order':lines,})
     sort_mapping = df_mapping.reset_index().set_index('order')
     df = pd.read_csv('hotels16_fast.csv', sep = '\t')
