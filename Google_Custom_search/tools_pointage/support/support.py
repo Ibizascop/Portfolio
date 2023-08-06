@@ -350,7 +350,7 @@ def reste_a_pointer(x,y,z):
         filtered_df = df[df[z].isnull()]
         filtered_df=filtered_df[~filtered_df[y].isnull()]
         noms = filtered_df[y].tolist()
-        with open(x[:-4]+'_a_pointer.txt','w') as f:
+        with open(x[:-4]+'_a_pointer.txt','w',encoding = "utf-8") as f:
             for nom in noms:
                 print(str(nom).strip(),file=f)
                 print(nom)
@@ -359,7 +359,7 @@ def reste_a_pointer(x,y,z):
         filtered_df = df[df[z].isnull()]
         filtered_df=filtered_df[~filtered_df[y].isnull()]
         noms = filtered_df[y].tolist()
-        with open(x[:-4]+'_a_pointer.txt','w') as f:
+        with open(x[:-4]+'_a_pointer.txt','w',encoding = "utf-8") as f:
             for nom in noms:
                 print(str(nom).strip(),file=f)
                 print(nom)
