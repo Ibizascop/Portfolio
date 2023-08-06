@@ -87,6 +87,11 @@ class parser:
             self.latitude=""
         
         try:
+            self.longitude= self.data['data'][0]['longitude']
+        except:
+            self.longitude=""
+        
+        try:
             self.label= self.data['data'][0]['label']
         except:
             self.label=""
