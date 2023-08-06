@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as soup
 import time
 import os
 from tqdm.notebook import tqdm
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import concurrent.futures
 import requests
 import re
@@ -11,14 +10,14 @@ import json
 import pandas as pd
 import datetime
 import calendar
-import glob
 from tools_pointage.support import support as sp
 from random import randint
 from customsearch_tools import customsearch as cs
 import jellyfish
-import urllib
 import random
-
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 
 def flag(s1,s2):
     try:
@@ -40,7 +39,7 @@ def pointer(x):
     fhandle.close()
     lines = open(x, 'r').readlines()
     lines = [x.strip().replace('\n','') for x in lines]
-    with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=3) as executor:
         future_to_url = {executor.submit(scrape_hotel_info, url): url for url in lines}
         for future in tqdm(concurrent.futures.as_completed(future_to_url),total=len(lines)):
             time.sleep(1.5)
@@ -84,33 +83,34 @@ def scrape_hotel_info(x):
 
     try:
         try:
-            sp.req2(url)
-
-            webpage=sp.page.text
-            toy_soup2 = soup(webpage, "html.parser")
-            gold=toy_soup2.findAll("span")
+            chrome_options = Options()
+            path = r"C:\Users\ibiza\Desktop\TRAVAUX\chromedriver_win32\chromedriver.exe"
+            chrome_options.add_argument("--headless")
+            chrome = webdriver.Chrome(executable_path= path ,options=chrome_options)
+            chrome.maximize_window()
+            chrome.get(url)
             
             try:
-                lecture_chambres = toy_soup2.find("div",{"class":"uitk-spacing uitk-spacing-margin-blockend-four"})
-                chambres = re.search(r'(\d+)',lecture_chambres.get_text()).group()
+                lecture_chambres = chrome.find_element(By.CSS_SELECTOR,"div[class='uitk-spacing uitk-spacing-margin-blockend-four']")
+                chambres = re.search(r'(\d+)',lecture_chambres.text).group()
             except:
                 chambres = ''
 
-            lecture_etoiles=toy_soup2.findAll("svg",{"class":"uitk-icon uitk-rating-icon uitk-icon-xsmall"})
+            lecture_etoiles=chrome.find_elements(By.CSS_SELECTOR,"svg[class='uitk-icon uitk-rating-icon uitk-icon-xsmall']")
             try:
                 stars = len(lecture_etoiles)
             except:
                 stars=''
 
-            lecture_name = toy_soup2.find("h1",{"class":"uitk-heading uitk-heading-3"})
+            lecture_name = chrome.find_element(By.CSS_SELECTOR,"h1[class='uitk-heading uitk-heading-3']")
             try:
-                vname = lecture_name.get_text()
+                vname = lecture_name.text
             except:
                 vname = ""
 
-            lecture_adrs = toy_soup2.find("div",{"itemprop":"address"})
+            lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"div[itemprop='address']")
             try:
-                adrs = lecture_adrs.get_text().replace('\ue98d','')
+                adrs = lecture_adrs.text.replace('\ue98d','')
             except:
                 adrs = ""
 
@@ -141,38 +141,42 @@ def scrape_hotel_info(x):
             except:
                 url=''
             try:
-                sp.req2(url)
-                webpage=sp.page.text
-                tripadvisor_soup = sp.soup(webpage, "html.parser")
-                stars_tripadvisor=tripadvisor_soup.findAll('svg',{'class':'TkRkB d H0'})
-                capacity_tripadvisor=tripadvisor_soup.findAll('div',{'id':'ABOUT_TAB'})
-                name_tripadvisor=tripadvisor_soup.findAll('h1',{'id':'HEADING'})
-                adrs_tripadvisor=tripadvisor_soup.findAll('span',{'class':'ceIOZ yYjkv'})
+                chrome_options = Options()
+                path = r"C:\Users\ibiza\Desktop\TRAVAUX\chromedriver_win32\chromedriver.exe"
+                chrome_options.add_argument("--headless")
+                chrome = webdriver.Chrome(executable_path= path ,options=chrome_options)
+                chrome.maximize_window()
+                chrome.get(url)
 
                 try:
-                    stars=str(stars_tripadvisor[0]['title']).replace(' sur 5\xa0bulles','')
+                    stars_tripadvisor = chrome.find_element(By.CSS_SELECTOR,"svg[class='UctUV d H0 hzzSG']")
+                    stars_tripadvisor = stars_tripadvisor.get_attribute("aria-label")
+                    stars = stars_tripadvisor.split(" ")[0]
                 except:
                     stars=''
                 try:
-                    chambres=str(capacity_tripadvisor)
-                    roomsy=re.compile('NOMBRE DE CHAMBRES<\/div><div class="cJdpk Ci">(\d+)')
-                    chambres=roomsy.findall(chambres)[0]
+                    capacity_tripadvisor = chrome.find_element(By.XPATH,'//*[@id="ABOUT_TAB"]/div/div[6]')
+                    chambres = capacity_tripadvisor.text
                 except:
                     chambres=''
                 try:
-                    vname=name_tripadvisor[0].text
+                    name_tripadvisor=chrome.find_element(By.CSS_SELECTOR,"h1[id='HEADING']")
+                    vname = name_tripadvisor.text
                 except:
                     vname=''
                 try:
-                    adrs=adrs_tripadvisor[0].text
+                    adrs_tripadvisor = chrome.find_element(By.XPATH,'//*[@id="component_34"]/div/div[1]/div[3]/div[1]/div[2]/span[2]/span')
+                    adrs_tripadvisor.text
                 except:
                     adrs=""
+                chrome.quit()
             except Exception as ex:
                 print(x, 'could not be completed','because of',ex)
                 vname=""
                 stars=''
                 chambres=''
                 adrs=''
+                chrome.quit()
             #Check if tripadvisor returned valid information
 
             if flag(x,vname)=='OK':
@@ -194,40 +198,89 @@ def scrape_hotel_info(x):
                 except:
                     url=''
                 try:
-                    sp.req2(url)
-                    webpage=sp.page.text
-                    trip_soup = sp.soup(webpage, "html.parser")
-                    stars_trip=trip_soup.findAll('i',{'class':'u-icon u-icon-ic_new_diamond detail-headline_title_level'})
-                    capacity_trip=trip_soup.findAll('ul',{'class':'basicInfo clearfix'})
-                    name_trip=trip_soup.findAll('h1',{'class':'detail-headline_name '})
-                    adrs_trip=trip_soup.findAll('span',{'class':'detail-headline_position_text'})
+                    #Driver
+                    chrome_options = Options()
+                    path = r"C:\Users\ibiza\Desktop\TRAVAUX\chromedriver_win32\chromedriver.exe"
+                    chrome_options.add_argument("--headless")
+                    chrome = webdriver.Chrome(executable_path= path ,options=chrome_options)
+                    chrome.maximize_window()
+                    chrome.get(url)
 
+                    #Nom
                     try:
-                        stars=str(len(stars_trip))
+                        lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline_name ']")
+                        nom = lecture_nom.text
+                        nom=' '.join(nom.replace('\n','').split())
                     except:
-                        stars=''
-                    try:
-                        chambres=capacity_trip[0].text
-                        roomsy=re.compile('(?<=Nombre de chambres : )(\d+)')
-                        chambres=roomsy.findall(chambres)[0]
-                    except:
-                        chambres=''
-                    try:
-                        vname=name_trip[0].text
-                        vname=' '.join(vname.replace('\n','').split())
-                    except:
-                        vname=''
-                    try:
-                        adrs=adrs_trip[0].text
+                        try :
+                            lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline-v8_name hotelTag-title_h1']")
+                            nom = lecture_nom.text
+                            nom=' '.join(nom.replace('\n','').split())
+                        except:
+                            try :
+                                lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline-v8_name ']")
+                                nom = lecture_nom.text
+                                nom=' '.join(nom.replace('\n','').split())
+                            except:
+                                try:
+                                    lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline_name hotelTag-title_h1']")
+                                    nom = lecture_nom.text
+                                    nom=' '.join(nom.replace('\n','').split())
+                                except:
+                                    nom =""
+                    #Adresse
+                    try :
+                        lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"span[class='detail-headline_position_text']")
+                        adrs = lecture_adrs.text
                         adrs=' '.join(adrs.replace('\n','').split())
                     except:
-                        adrs=""
+                        try :
+                            lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"span[class='detail-headline-v8_position_text']")
+                            adrs = lecture_adrs.text
+                            adrs=' '.join(adrs.replace('\n','').split())
+                        except :
+                            adrs =""
+                    #Etoiles
+                    try :
+                        lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_diamond detail-headline_title_level']")
+                        etoiles = len(lecture_etoiles)
+                        if etoiles == 0:
+                            lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_diamond detail-headline-v8_title_level']")
+                            etoiles = len(lecture_etoiles)
+                            if etoiles == 0:
+                                lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_star detail-headline_title_level']")
+                                etoiles = len(lecture_etoiles)
+                                if etoiles == 0:
+                                    lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_star detail-headline-v8_title_level']")
+                                    etoiles = len(lecture_etoiles)
+                                    if etoiles == 0:
+                                        lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_circle detail-headline_title_level']")
+                                        etoiles = len(lecture_etoiles)
+                                        if etoiles == 0 :
+                                            lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_circle detail-headline-v8_title_level']")
+                                            etoiles = len(lecture_etoiles)
+                                            if etoiles == 0 :
+                                                etoiles =""
+                    except :
+                        etoiles =""
+                    # Chambres
+                    try:
+                        lecture_infos = chrome.find_elements(By.CSS_SELECTOR,"ul[class='basicInfo clearfix']")
+                        chrome.execute_script("arguments[0].scrollIntoView();",lecture_infos[0])
+                        x = lecture_infos[0].text
+                        regex_room = r'(?<=Nombre de chambres : )(\d+)'
+                        rooms = re.search(regex_room,x).group()
+                    except:
+                        rooms = ""
+                        
+                    chrome.quit()
                 except Exception as ex:
                     print(x, 'could not be completed','because of',ex)
                     vname=""
                     stars=''
                     chambres=''
                     adrs=''
+                    chrome.quit()
             
                 check = 'CHECK'
                 varlist=[str(x).replace('\t',''),str(stars).replace('\t',''),str(chambres).replace('\t',''),str(vname).replace('\t',''),str(adrs).replace('\t',''),str(url).replace('\t',''),check]
