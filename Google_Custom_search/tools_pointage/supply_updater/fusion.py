@@ -126,20 +126,18 @@ def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_count
 
 
 
-        geo_pandas['street_number'] = geo_pandas.apply(lambda x: gc.parser(x['data']).street_number, axis=1)
-        geo_pandas['route'] = geo_pandas.apply(lambda x: gc.parser(x['data']).route, axis=1)
-        geo_pandas['neighborhood'] = geo_pandas.apply(lambda x: gc.parser(x['data']).neighborhood, axis=1)
-        geo_pandas['locality'] = geo_pandas.apply(lambda x: gc.parser(x['data']).locality, axis=1)
-        geo_pandas['aa2'] = geo_pandas.apply(lambda x: gc.parser(x['data']).aa2, axis=1)
-        geo_pandas['aa1'] = geo_pandas.apply(lambda x: gc.parser(x['data']).aa1, axis=1)
+        geo_pandas['street_number'] = geo_pandas.apply(lambda x: gc.parser(x['data']).number, axis=1)
+        geo_pandas['route'] = geo_pandas.apply(lambda x: gc.parser(x['data']).street, axis=1)
+        geo_pandas['neighborhood'] = geo_pandas.apply(lambda x: gc.parser(x['data']).neighbourhood, axis=1)
+        geo_pandas['locality'] = geo_pandas.apply(lambda x: gc.parser(x['data']).administrative_area, axis=1)
+        geo_pandas['aa2'] = geo_pandas.apply(lambda x: gc.parser(x['data']).region, axis=1)
+        geo_pandas['aa1'] = geo_pandas.apply(lambda x: gc.parser(x['data']).region_code, axis=1)
         geo_pandas['country'] = geo_pandas.apply(lambda x: gc.parser(x['data']).country, axis=1)
-        geo_pandas['code_postal'] = geo_pandas.apply(lambda x: gc.parser(x['data']).code_postal, axis=1)
-        geo_pandas['lat'] = geo_pandas.apply(lambda x: gc.parser(x['data']).lat, axis=1)
-        geo_pandas['lng'] = geo_pandas.apply(lambda x: gc.parser(x['data']).lng, axis=1)
-        geo_pandas['bounds'] = geo_pandas.apply(lambda x: gc.parser(x['data']).bounds, axis=1)
-        geo_pandas['viewport'] = geo_pandas.apply(lambda x: gc.parser(x['data']).viewport, axis=1)
-        geo_pandas['formatted_address'] = geo_pandas.apply(lambda x: gc.parser(x['data']).faddress, axis=1)
-        geo_pandas['id'] = geo_pandas.apply(lambda x: gc.parser(x['data']).id, axis=1)
+        geo_pandas['country_code'] = geo_pandas.apply(lambda x: gc.parser(x['data']).country_code, axis=1)
+        geo_pandas['code_postal'] = geo_pandas.apply(lambda x: gc.parser(x['data']).postal_code, axis=1)
+        geo_pandas['lat'] = geo_pandas.apply(lambda x: gc.parser(x['data']).latitude, axis=1)
+        geo_pandas['lng'] = geo_pandas.apply(lambda x: gc.parser(x['data']).longitude, axis=1)
+        geo_pandas['formatted_address'] = geo_pandas.apply(lambda x: gc.parser(x['data']).label, axis=1)
         geo_pandas['UE'] = geo_pandas.apply(lambda x: gc.parser(x['data']).ue, axis=1)
         del geo_pandas['data']
 
@@ -258,20 +256,18 @@ def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_count
 
 
 
-        geo_pandas['street_number'] = geo_pandas.apply(lambda x: gc.parser(x['data']).street_number, axis=1)
-        geo_pandas['route'] = geo_pandas.apply(lambda x: gc.parser(x['data']).route, axis=1)
-        geo_pandas['neighborhood'] = geo_pandas.apply(lambda x: gc.parser(x['data']).neighborhood, axis=1)
-        geo_pandas['locality'] = geo_pandas.apply(lambda x: gc.parser(x['data']).locality, axis=1)
-        geo_pandas['aa2'] = geo_pandas.apply(lambda x: gc.parser(x['data']).aa2, axis=1)
-        geo_pandas['aa1'] = geo_pandas.apply(lambda x: gc.parser(x['data']).aa1, axis=1)
+        geo_pandas['street_number'] = geo_pandas.apply(lambda x: gc.parser(x['data']).number, axis=1)
+        geo_pandas['route'] = geo_pandas.apply(lambda x: gc.parser(x['data']).street, axis=1)
+        geo_pandas['neighborhood'] = geo_pandas.apply(lambda x: gc.parser(x['data']).neighbourhood, axis=1)
+        geo_pandas['locality'] = geo_pandas.apply(lambda x: gc.parser(x['data']).administrative_area, axis=1)
+        geo_pandas['aa2'] = geo_pandas.apply(lambda x: gc.parser(x['data']).region, axis=1)
+        geo_pandas['aa1'] = geo_pandas.apply(lambda x: gc.parser(x['data']).region_code, axis=1)
         geo_pandas['country'] = geo_pandas.apply(lambda x: gc.parser(x['data']).country, axis=1)
-        geo_pandas['code_postal'] = geo_pandas.apply(lambda x: gc.parser(x['data']).code_postal, axis=1)
-        geo_pandas['lat'] = geo_pandas.apply(lambda x: gc.parser(x['data']).lat, axis=1)
-        geo_pandas['lng'] = geo_pandas.apply(lambda x: gc.parser(x['data']).lng, axis=1)
-        geo_pandas['bounds'] = geo_pandas.apply(lambda x: gc.parser(x['data']).bounds, axis=1)
-        geo_pandas['viewport'] = geo_pandas.apply(lambda x: gc.parser(x['data']).viewport, axis=1)
-        geo_pandas['formatted_address'] = geo_pandas.apply(lambda x: gc.parser(x['data']).faddress, axis=1)
-        geo_pandas['id'] = geo_pandas.apply(lambda x: gc.parser(x['data']).id, axis=1)
+        geo_pandas['country_code'] = geo_pandas.apply(lambda x: gc.parser(x['data']).country_code, axis=1)
+        geo_pandas['code_postal'] = geo_pandas.apply(lambda x: gc.parser(x['data']).postal_code, axis=1)
+        geo_pandas['lat'] = geo_pandas.apply(lambda x: gc.parser(x['data']).latitude, axis=1)
+        geo_pandas['lng'] = geo_pandas.apply(lambda x: gc.parser(x['data']).longitude, axis=1)
+        geo_pandas['formatted_address'] = geo_pandas.apply(lambda x: gc.parser(x['data']).label, axis=1)
         geo_pandas['UE'] = geo_pandas.apply(lambda x: gc.parser(x['data']).ue, axis=1)
         del geo_pandas['data']
 
