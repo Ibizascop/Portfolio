@@ -113,13 +113,13 @@ def scrape_hotel_info(x):
                 adrs = lecture_adrs.text.replace('\ue98d','')
             except:
                 adrs = ""
-
+            chrome.quit()
         except:
             vname=""
             stars=''
             chambres=''
             adrs=''
-
+            chrome.quit()
         #Check if hotels.com returned valid information
 
         if flag(x,vname)=='OK':
