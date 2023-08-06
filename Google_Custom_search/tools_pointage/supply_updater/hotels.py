@@ -43,7 +43,7 @@ def pointer(x):
         time.sleep(0.5)
         scrape_hotel_info(url)
     
-    newname = 'hotels16_fast'+str(tsx)+'.csv'
+    newname = 'hotels'+'16_fast'+'.csv'
     df_mapping = pd.DataFrame({'order':lines,})
     sort_mapping = df_mapping.reset_index().set_index('order')
     df = pd.read_csv('hotels16_fast.csv', sep = '\t')
