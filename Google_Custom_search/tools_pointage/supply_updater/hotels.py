@@ -39,19 +39,9 @@ def pointer(x):
     fhandle.close()
     lines = open(x, 'r').readlines()
     lines = [x.strip().replace('\n','') for x in lines]
-    with concurrent.futures.ProcessPoolExecutor(max_workers=3) as executor:
-        future_to_url = {executor.submit(scrape_hotel_info, url): url for url in lines}
-        for future in tqdm(concurrent.futures.as_completed(future_to_url),total=len(lines)):
-            time.sleep(1.5)
-            url = future_to_url[future]
-            try:
-                data = future.result()
-            except Exception as exc:
-                with open('exception.txt',"a") as flog:
-                    print('%r generated an exception: %s' % (url, exc),file=flog)
-            else:
-                with open('completed.txt',"a") as flog:
-                    print('%r page is completed' % url,file=flog)
+    for url in tqdm(lines) :
+        time.sleep(0.5)
+        scrape_hotel_info(url)
     
     newname = 'hotels16_fast'+str(tsx)+'.csv'
     df_mapping = pd.DataFrame({'order':lines,})
