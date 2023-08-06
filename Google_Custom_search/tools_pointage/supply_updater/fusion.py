@@ -1,5 +1,5 @@
-from support import support as sp
-from supply_updater import hotels as ho
+from tools_pointage.support import support as sp
+from tools_pointage.supply_updater import hotels as ho
 from customsearch_tools import geocode as gc
 import os
 import glob
