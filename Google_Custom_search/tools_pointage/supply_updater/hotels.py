@@ -1,7 +1,6 @@
 #Import modules
 from bs4 import BeautifulSoup as soup
 import time
-import logging
 import os
 from tqdm.notebook import tqdm
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -11,6 +10,7 @@ import re
 import json
 import pandas as pd
 import datetime
+import calendar
 import glob
 from tools_pointage.support import support as sp
 from random import randint
@@ -31,8 +31,8 @@ def flag(s1,s2):
 
 
 def pointer(x):
-    ts = time.gmtime()
-    tsx=time.strftime("%s", ts)
+    date = datetime.datetime.utcnow()
+    tsx = str(calendar.timegm(date.utctimetuple()))
     namefile='hotels'+'16_fast'+'.csv'
     fhandle=open(namefile,'w', encoding="utf-8")
     headers = ("Hotel Name"+"\t"+'stars'+'\t'+"Capacities" + '\t' + "webname" + '\t' + "address" +'\t'+"url\t"+"check\n")
