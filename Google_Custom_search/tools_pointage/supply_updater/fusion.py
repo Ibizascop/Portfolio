@@ -52,7 +52,7 @@ def flag(s1,s2):
     except:
         return "NaN"
 
-def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_country=''):
+def fusion(filename, brands, api,mode=0, fill_blank=False, force_fill=0, force_country=''):
     """
     Fonction permettant de fusionner les données du csv obtenu
     via crawl du site avec les donnée du csv obtenu via le pointage 
@@ -122,7 +122,7 @@ def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_count
         print('Fetching location data...')
         for a_data in tqdm(geo_list):
             time.sleep(1)
-            a_data['data'] = a_data.apply(lambda x: gc.searcher(x['adress']).data, axis=1)
+            a_data['data'] = a_data.apply(lambda x: gc.searcher(x['adress'],api).data, axis=1)
         geo_pandas=pd.concat(geo_list,ignore_index=True)
 
 
@@ -252,7 +252,7 @@ def fusion(filename, brands, mode=0, fill_blank=False, force_fill=0, force_count
         print('Fetching location data...')
         for a_data in tqdm(geo_list):
             time.sleep(1)
-            a_data['data'] = a_data.apply(lambda x: gc.searcher(x['external_adresse']).data, axis=1)
+            a_data['data'] = a_data.apply(lambda x: gc.searcher(x['external_adresse'],api).data, axis=1)
         geo_pandas=pd.concat(geo_list,ignore_index=True)
 
 
