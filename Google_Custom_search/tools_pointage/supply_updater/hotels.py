@@ -96,21 +96,23 @@ def scrape_hotel_info(x):
             except:
                 chambres = ''
 
-            lecture_etoiles=chrome.find_elements(By.CSS_SELECTOR,"svg[class='uitk-icon uitk-rating-icon uitk-icon-xsmall']")
             try:
+                lecture_etoiles=chrome.find_elements(By.CSS_SELECTOR,"svg[class='uitk-icon uitk-rating-icon uitk-icon-xsmall']")
                 stars = len(lecture_etoiles)
             except:
                 stars=''
 
-            lecture_name = chrome.find_element(By.CSS_SELECTOR,"h1[class='uitk-heading uitk-heading-3']")
             try:
+                lecture_name = chrome.find_element(By.CSS_SELECTOR,"h1[class='uitk-heading uitk-heading-3']")
                 vname = lecture_name.text
+                vname=' '.join(vname.replace('\n','').split())
             except:
                 vname = ""
 
-            lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"div[itemprop='address']")
             try:
-                adrs = lecture_adrs.text.replace('\ue98d','')
+                lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"div[data-stid='content-hotel-address']")
+                adrs = lecture_adrs.text
+                adrs=' '.join(adrs.replace('\n','').split())
             except:
                 adrs = ""
             chrome.quit()
@@ -162,11 +164,13 @@ def scrape_hotel_info(x):
                 try:
                     name_tripadvisor=chrome.find_element(By.CSS_SELECTOR,"h1[id='HEADING']")
                     vname = name_tripadvisor.text
+                    vname=' '.join(vname.replace('\n','').split())
                 except:
                     vname=''
                 try:
                     adrs_tripadvisor = chrome.find_element(By.XPATH,'//*[@id="component_34"]/div/div[1]/div[3]/div[1]/div[2]/span[2]/span')
                     adrs = adrs_tripadvisor.text
+                    adrs=' '.join(adrs.replace('\n','').split())
                 except:
                     adrs=""
                 chrome.quit()
@@ -209,25 +213,25 @@ def scrape_hotel_info(x):
                     #Nom
                     try:
                         lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline_name ']")
-                        nom = lecture_nom.text
-                        nom=' '.join(nom.replace('\n','').split())
+                        vname = lecture_nom.text
+                        vname=' '.join(vname.replace('\n','').split())
                     except:
                         try :
                             lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline-v8_name hotelTag-title_h1']")
-                            nom = lecture_nom.text
-                            nom=' '.join(nom.replace('\n','').split())
+                            vname = lecture_nom.text
+                            vname=' '.join(vname.replace('\n','').split())
                         except:
                             try :
                                 lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline-v8_name ']")
-                                nom = lecture_nom.text
-                                nom=' '.join(nom.replace('\n','').split())
+                                vname = lecture_nom.text
+                                vname=' '.join(vname.replace('\n','').split())
                             except:
                                 try:
                                     lecture_nom = chrome.find_element(By.CSS_SELECTOR,"h1[class='detail-headline_name hotelTag-title_h1']")
-                                    nom = lecture_nom.text
-                                    nom=' '.join(nom.replace('\n','').split())
+                                    vname = lecture_nom.text
+                                    vname=' '.join(vname.replace('\n','').split())
                                 except:
-                                    nom =""
+                                    vname =""
                     #Adresse
                     try :
                         lecture_adrs = chrome.find_element(By.CSS_SELECTOR,"span[class='detail-headline_position_text']")
@@ -243,35 +247,35 @@ def scrape_hotel_info(x):
                     #Etoiles
                     try :
                         lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_diamond detail-headline_title_level']")
-                        etoiles = len(lecture_etoiles)
-                        if etoiles == 0:
+                        stars = len(lecture_etoiles)
+                        if stars == 0:
                             lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_diamond detail-headline-v8_title_level']")
-                            etoiles = len(lecture_etoiles)
-                            if etoiles == 0:
+                            stars = len(lecture_etoiles)
+                            if stars == 0:
                                 lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_star detail-headline_title_level']")
-                                etoiles = len(lecture_etoiles)
-                                if etoiles == 0:
+                                stars = len(lecture_etoiles)
+                                if stars == 0:
                                     lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_star detail-headline-v8_title_level']")
-                                    etoiles = len(lecture_etoiles)
-                                    if etoiles == 0:
+                                    stars = len(lecture_etoiles)
+                                    if stars == 0:
                                         lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_circle detail-headline_title_level']")
-                                        etoiles = len(lecture_etoiles)
-                                        if etoiles == 0 :
+                                        stars = len(lecture_etoiles)
+                                        if stars == 0 :
                                             lecture_etoiles = chrome.find_elements(By.CSS_SELECTOR,"i[class='u-icon u-icon-ic_new_circle detail-headline-v8_title_level']")
-                                            etoiles = len(lecture_etoiles)
-                                            if etoiles == 0 :
-                                                etoiles =""
+                                            stars = len(lecture_etoiles)
+                                            if stars == 0 :
+                                                stars =""
                     except :
-                        etoiles =""
+                        stars =""
                     # Chambres
                     try:
                         lecture_infos = chrome.find_elements(By.CSS_SELECTOR,"ul[class='basicInfo clearfix']")
                         chrome.execute_script("arguments[0].scrollIntoView();",lecture_infos[0])
                         x = lecture_infos[0].text
                         regex_room = r'(?<=Nombre de chambres : )(\d+)'
-                        rooms = re.search(regex_room,x).group()
+                        chambres = re.search(regex_room,x).group()
                     except:
-                        rooms = ""
+                        chambres = ""
 
                     chrome.quit()
                 except Exception as ex:
