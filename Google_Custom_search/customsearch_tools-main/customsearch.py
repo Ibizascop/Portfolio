@@ -1,8 +1,48 @@
 import json
-from urllib.parse import quote
 import requests
 import warnings
+from duckduckgo_search import DDGS
+from itertools import islice
+from urllib.parse import quote
+
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
+
+class duck_duck_go_search:
+    def __init__(self,query):
+        self.query = query
+        self.tripadvisor=None
+        self.hotels=None
+        self.trip =None
+    def request(self):
+        self.urls=DDGS().text(self.query, backend="lite")
+        global links
+        links=[]
+
+        for item in self.urls:
+            links.append(item['href'])
+        temp_tripadvisor=[x for x in links if 'tripadvisor' in x]
+        temp_hotel=[x for x in links if 'hotels.com/' in x]
+        temp_trip=[x for x in links if 'hk.trip.com' in x or "hotels.ctrip.com/hotels/" in x
+                  or "trip.com/hotels/" in x]
+
+
+        try:
+            tripadvisor_url=temp_tripadvisor[0]
+        except:
+            tripadvisor_url=""
+        try:
+            hotel_url=temp_hotel[0]
+        except:
+            hotel_url=""
+        try:
+            trip_url=temp_trip[0]
+        except:
+            trip_url=""
+            
+        self.tripadvisor=tripadvisor_url
+        self.hotels=hotel_url
+        self.trip=trip_url
+
 
 class custom_search:
     def __init__(self,query):

@@ -43,6 +43,7 @@ def pointer(x):
     with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
         future_to_url = {executor.submit(scrape_hotel_info, url): url for url in lines}
         for future in tqdm(concurrent.futures.as_completed(future_to_url),total=len(lines)):
+            time.sleep(1.5)
             url = future_to_url[future]
             try:
                 data = future.result()
@@ -67,14 +68,13 @@ def scrape_hotel_info(x):
     y='hotels'+'16_fast'+'.csv'
     time.sleep(random.randint(20,50)/10)
     x=x.strip().replace('"','')
-    cosito=cs.custom_search(x)
+    cosito=cs.duck_duck_go_search(x)
     try:
         cosito.request()
     except Exception as e:
         pass
 
     #1st attempt hotels.com
-
 
     #print('checking hotels.com...')
     try:
@@ -143,28 +143,28 @@ def scrape_hotel_info(x):
             try:
                 sp.req2(url)
                 webpage=sp.page.text
-                trip_soup = sp.soup(webpage, "html.parser")
-                stars_trip=trip_soup.findAll('svg',{'class':'TkRkB d H0'})
-                capacity_trip=trip_soup.findAll('div',{'id':'ABOUT_TAB'})
-                name_trip=trip_soup.findAll('h1',{'id':'HEADING'})
-                adrs_trip=trip_soup.findAll('span',{'class':'ceIOZ yYjkv'})
+                tripadvisor_soup = sp.soup(webpage, "html.parser")
+                stars_tripadvisor=tripadvisor_soup.findAll('svg',{'class':'TkRkB d H0'})
+                capacity_tripadvisor=tripadvisor_soup.findAll('div',{'id':'ABOUT_TAB'})
+                name_tripadvisor=tripadvisor_soup.findAll('h1',{'id':'HEADING'})
+                adrs_tripadvisor=tripadvisor_soup.findAll('span',{'class':'ceIOZ yYjkv'})
 
                 try:
-                    stars=str(stars_trip[0]['title']).replace(' sur 5\xa0bulles','')
+                    stars=str(stars_tripadvisor[0]['title']).replace(' sur 5\xa0bulles','')
                 except:
                     stars=''
                 try:
-                    chambres=str(capacity_trip)
+                    chambres=str(capacity_tripadvisor)
                     roomsy=re.compile('NOMBRE DE CHAMBRES<\/div><div class="cJdpk Ci">(\d+)')
                     chambres=roomsy.findall(chambres)[0]
                 except:
                     chambres=''
                 try:
-                    vname=name_trip[0].text
+                    vname=name_tripadvisor[0].text
                 except:
                     vname=''
                 try:
-                    adrs=adrs_trip[0].text
+                    adrs=adrs_tripadvisor[0].text
                 except:
                     adrs=""
             except Exception as ex:
@@ -186,6 +186,49 @@ def scrape_hotel_info(x):
                 #pbar.update(1)
 
             else:
+                try:
+                    url=cosito.trip
+                    if "hotels.ctrip.com/hotels/" in url :
+                        id_hotel = re.search("(?<=https://hotels.ctrip.com/hotels/)(.+)(?=.html)",url).group()
+                        url = "https://fr.trip.com/hotels/hong+kong-hotel-detail-{}?locale=fr_fr".format(id_hotel)
+                except:
+                    url=''
+                try:
+                    sp.req2(url)
+                    webpage=sp.page.text
+                    trip_soup = sp.soup(webpage, "html.parser")
+                    stars_trip=trip_soup.findAll('i',{'class':'u-icon u-icon-ic_new_diamond detail-headline_title_level'})
+                    capacity_trip=trip_soup.findAll('ul',{'class':'basicInfo clearfix'})
+                    name_trip=trip_soup.findAll('h1',{'class':'detail-headline_name '})
+                    adrs_trip=trip_soup.findAll('span',{'class':'detail-headline_position_text'})
+
+                    try:
+                        stars=str(len(stars_trip))
+                    except:
+                        stars=''
+                    try:
+                        chambres=capacity_trip[0].text
+                        roomsy=re.compile('(?<=Nombre de chambres : )(\d+)')
+                        chambres=roomsy.findall(chambres)[0]
+                    except:
+                        chambres=''
+                    try:
+                        vname=name_trip[0].text
+                        vname=' '.join(vname.replace('\n','').split())
+                    except:
+                        vname=''
+                    try:
+                        adrs=adrs_trip[0].text
+                        adrs=' '.join(adrs.replace('\n','').split())
+                    except:
+                        adrs=""
+                except Exception as ex:
+                    print(x, 'could not be completed','because of',ex)
+                    vname=""
+                    stars=''
+                    chambres=''
+                    adrs=''
+            
                 check = 'CHECK'
                 varlist=[str(x).replace('\t',''),str(stars).replace('\t',''),str(chambres).replace('\t',''),str(vname).replace('\t',''),str(adrs).replace('\t',''),str(url).replace('\t',''),check]
                 to_append=varlist
